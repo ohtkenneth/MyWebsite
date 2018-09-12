@@ -7,6 +7,7 @@ import {
 
 import PortfolioList from '../Portfolio/PortfolioList';
 import Profile from '../Profile/Profile';
+import MenuIcon from '@material-ui/icons/menu';
 import styles from './NavBar.css';
 
 const NavBar = () => {
@@ -18,10 +19,9 @@ const NavBar = () => {
 const Routes = () => (
   <Router>
     <div className={ styles.root }>
-      <ul>
-        <li><Link to="/portfolio">Portfolio</Link></li>
-        <li><Link to="/profile">Profile</Link></li>
-      </ul>
+      <MenuIcon/>
+      <Link to="/portfolio">Portfolio</Link>
+      <Link to="/profile">Profile</Link>
 
       <Route exact path="/portfolio" component={ PortfolioList }/>
       <Route exact path="/profile" component={ Profile }/>

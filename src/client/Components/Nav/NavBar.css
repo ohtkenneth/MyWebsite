@@ -1,6 +1,7 @@
 :local(.root) {
   display: flex;
   background-color: #0ba5ee;
+  height: 75px;
 }
 
 :local(.button) {

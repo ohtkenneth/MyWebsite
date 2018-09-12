@@ -1,0 +1,13 @@
+:local(.root) {
+  display: flex;
+  background-color: #0ba5ee;
+}
+
+:local(.button) {
+  margin: 0px 30px 0px 0px;
+}
+
+:local(.typeography) {
+  flex-grow: 1;
+  margin: 0px 0px 0px 50px;
+}

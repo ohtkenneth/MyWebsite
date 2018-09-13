@@ -7,20 +7,15 @@ import Overlay from '../Overlay/Overlay';
 
 import styles from './Card.css';
 
-const Card = ({ info }) => {
+const Card = ({ info, onOverlay }) => {
   return (
-    <div className={ styles.root } onClick={ () => alert('hello world') }>
+    <div className={ styles.root } onClick={ () => onOverlay(info.id) }>
       {/* info.technologies are technologies used in stack */}
       <Header technologies={ info.technologies }/>
       <Body imgSrc={ info.imgSrc }/>
       <Footer name={ info.name } gist={ info.gist }/>
-      <Overlay />
     </div>
   );
-};
-
-const handleCardClick = () => {
-  // toggle the card's overlay with card information
 };
 
 export default Card;

@@ -11,14 +11,15 @@
   width: 100%;
   padding: 10px;
   background-color: #eeeeee;
-  border-radius: 5px;
 }
 
-:local(.button) {
-  margin: 0px 30px 0px 0px;
+:local(.link) {
+  margin: 0px 10px 0px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
-:local(.typeography) {
-  flex-grow: 1;
-  margin: 0px 0px 0px 50px;
+:local(.link:hover) {
+  color: #a2a2a2;
 }

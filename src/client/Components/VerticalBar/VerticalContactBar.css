@@ -21,10 +21,14 @@
 
 :local(.iconGmail) {
   composes: icon;
+  -webkit-animation: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
 :local(.iconLinkedIn) {
   composes: icon;
+  -webkit-animation: background color 0.5s;
+  transition: background color 0.5s;
 }
 
 :local(.iconGmail:hover) {

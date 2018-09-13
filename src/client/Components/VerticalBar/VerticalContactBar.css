@@ -1,13 +1,38 @@
 :local(.root) {
+  position: fixed;
+  z-index: 1;
+  top: 250px;
+  left: 10px;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  width: 50px;
+  align-items: center;
+  width: 60px;
   padding: 10px;
   background-color: #eeeeee;
+  border-radius: 5px;
 }
 
 :local(.icon) {
   width: 50px;
   height: 50px;
+  margin: 15px 0px 15px 0px;
 }
 
+:local(.iconGmail) {
+  composes: icon;
+}
+
+:local(.iconLinkedIn) {
+  composes: icon;
+}
+
+:local(.iconGmail:hover) {
+  background-color: #d34c42;
+  border-radius: 5px;
+}
+
+:local(.iconLinkedIn:hover) {
+  background-color: #1178b3;
+  border-radius: 5px;
+}

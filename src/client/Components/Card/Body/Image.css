@@ -1,0 +1,10 @@
+:local(.root) {
+  display: flex;
+  justify-content: center;
+}
+
+:local(.image) {
+  width: 350px;
+  height: 300px;
+  border: 0.01em solid black;
+}

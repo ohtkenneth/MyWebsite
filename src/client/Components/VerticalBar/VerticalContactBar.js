@@ -14,12 +14,21 @@ const VerticalContactBar = (props) => {
   )
 }
 
+const handleEmail = () => {
+  document.location = `mailto:ohtkenneth@gmail.com?subject=&body=`;
+};
+
+const handleLinkedIn = () => {
+  const tab = window.open('https://www.linkedin.com/in/kenneth-oh/', '_blank');
+  tab.focus();
+};
+
 const GmailIcon = () => (
-  <div className={ styles.icon } dangerouslySetInnerHTML={{__html: gmailIconSvg }} />
+  <div onClick={ handleEmail }className={ styles.iconGmail } dangerouslySetInnerHTML={{__html: gmailIconSvg }} />
 );
 
 const LinkedInIcon = () => (
-  <div className={ styles.icon } dangerouslySetInnerHTML={{__html: linkedInSvg }} />
+  <div onClick={ handleLinkedIn } className={ styles.iconLinkedIn } dangerouslySetInnerHTML={{__html: linkedInSvg }} />
 )
 
 export default VerticalContactBar;

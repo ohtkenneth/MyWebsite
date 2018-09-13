@@ -2,13 +2,13 @@
   {
     "name": "xmlParserGenerator",
     "technologies": ["react", "aws", "node", "redux"],
-    "info": "Tool to both generate and parse XML depending on specific parameters.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Code.jpg"
+    "gist": "Tool to both generate and parse XML depending on specific parameters.",
+    "imgSrc": "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B0xO8Q47eiwdg4eb8/abstract-minimal-moving-background-with-space-for-text-white-dots-keeps-connecting-on-2016-pantone-color-mix-rose-quartz-and-serenity-gradient-background_hxgiagcxe_thumbnail-full01.png"
   },
   {
     "name": "test project",
     "technologies": ["angular", "aws"],
-    "info": "A test app. Hopefully a travel suggestion app",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Noun_15537_ccElliotVerhaeren_travel.svg"
+    "gist": "A test app. Hopefully a travel suggestion app",
+    "imgSrc": "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg"
   }
 ]

@@ -1,0 +1,7 @@
+:local(.root) {
+  display: flex;
+  justify-content: center;
+  background-color: #004f7c;
+  height: 800px;
+  padding: 100px 0px 0px 0px
+}

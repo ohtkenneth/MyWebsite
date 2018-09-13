@@ -10,23 +10,31 @@ import Profile from '../Profile/Profile';
 import MenuIcon from '@material-ui/icons/menu';
 import styles from './NavBar.css';
 
+// const NavBar = () => {
+//   return (
+//     <Routes />
+//   )
+// }
+
+// const Routes = () => (
+//   <Router>
+//     <div className={ styles.root }>
+//       <MenuIcon/>
+//       <Link to="/portfolio">Portfolio</Link>
+//       <Link to="/profile">Profile</Link>
+
+//       <Route exact path="/portfolio" component={ PortfolioList }/>
+//       <Route exact path="/profile" component={ Profile }/>
+//     </div>
+//   </Router>
+// )
 const NavBar = () => {
   return (
-    <Routes />
+    <div className={ styles.root} >
+      <h2>Portfolio</h2>
+      <h2>Profile</h2>
+    </div>
   )
 }
-
-const Routes = () => (
-  <Router>
-    <div className={ styles.root }>
-      <MenuIcon/>
-      <Link to="/portfolio">Portfolio</Link>
-      <Link to="/profile">Profile</Link>
-
-      <Route exact path="/portfolio" component={ PortfolioList }/>
-      <Route exact path="/profile" component={ Profile }/>
-    </div>
-  </Router>
-)
 
 export default NavBar;

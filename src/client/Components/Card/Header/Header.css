@@ -1,0 +1,10 @@
+:local(.root) {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  overflow: hidden;
+}
+
+:local(.icon) {
+  margin: 0px 10px 0px 10px;
+}

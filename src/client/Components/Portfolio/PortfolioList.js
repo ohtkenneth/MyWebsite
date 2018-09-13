@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import PortfolioListCard from './PortfolioListCard';
 
+import Card from '../Card/Card';
 import portfolioInfo from './portfolioInfo.json';
 
+import styles from './PortfolioList.css';
+
 const PortfolioList = () => {
-  let portfolioCards = portfolioInfo.map((project, index) =>
-    <PortfolioListCard key={index} name={project.name} info={project.info} technologies={project.technologies} img={project.img}/>
-  )
   return (
-    <div className="portfolio">
-      { portfolioCards }
+    <div className={ styles.root }>
+      {
+        portfolioInfo.map((portfolioItem, index) => (
+          <Card key={ portfolioItem.name } info={ portfolioItem }/>
+        ))
+      }
     </div>
   )
 }

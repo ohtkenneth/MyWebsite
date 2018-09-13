@@ -1,7 +1,17 @@
 :local(.root) {
   display: flex;
-  background-color: #0ba5ee;
-  height: 75px;
+  flex-direction: row;
+  align-items: center;
+  height: 35px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  overflow-x: hidden;
+  width: 100%;
+  padding: 10px;
+  background-color: #eeeeee;
+  border-radius: 5px;
 }
 
 :local(.button) {

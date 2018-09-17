@@ -12,7 +12,7 @@ const Card = ({ info, onOverlay }) => {
     <div className={ styles.root } onClick={ () => onOverlay(info.id) }>
       {/* info.technologies are technologies used in stack */}
       <Header technologies={ info.technologies }/>
-      <Body imgSrc={ info.imgSrc }/>
+      <Body imgSrc={ info.mainImage }/>
       <Footer name={ info.name } gist={ info.gist }/>
     </div>
   );

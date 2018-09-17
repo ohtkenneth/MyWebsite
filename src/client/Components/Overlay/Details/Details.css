@@ -1,0 +1,14 @@
+:local(.root) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:local(.name) {
+  width: 100%;
+  margin: 0;
+  padding-top: 15px;
+  height: 60px;
+  text-align: center;
+  background-color: #d1d1d1;
+}

@@ -24,7 +24,7 @@ const handleLinkedIn = () => {
 };
 
 const GmailIcon = () => (
-  <div onClick={ handleEmail }className={ styles.iconGmail } dangerouslySetInnerHTML={{__html: gmailIconSvg }} />
+  <div onClick={ handleEmail } className={ styles.iconGmail } dangerouslySetInnerHTML={{__html: gmailIconSvg }} />
 );
 
 const LinkedInIcon = () => (

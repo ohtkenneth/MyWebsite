@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+
+import Intro from '../Intro/IntroSection';
 import NavBar from '../Nav/NavBar';
 import VerticalContactBar from '../VerticalBar/VerticalContactBar';
 import PortfolioList from '../Portfolio/PortfolioList';
+import Contact from '../Contact/Contact';
 
 import icons from '../utils/icons';
 
@@ -13,9 +16,11 @@ class App extends Component {
   render() {
     return (
       <div className={ styles.root }>
+        <Intro />
         <NavBar />
         <VerticalContactBar />
         <PortfolioList />
+        <Contact />
         <div className={ styles.wrap }>
           {/* Break site into horizontal sections */}
         </div>

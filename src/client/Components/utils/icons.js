@@ -1,12 +1,12 @@
 const reactSvg = require('devicon/icons/react/react-original.svg')
 
 const iconFont = {
-  fontSize: 45,
+  fontSize: 35,
 }
 
 const iconStyle = {
-  height: 45,
-  width: 45,
+  height: 35,
+  width: 35,
 };
 
 const icons = {

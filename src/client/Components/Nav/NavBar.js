@@ -31,8 +31,8 @@ import styles from './NavBar.css';
 const NavBar = () => {
   return (
     <div className={ styles.root} >
-      <h2 className={ styles.link }>Portfolio</h2>
       <h2 className={ styles.link }>Profile</h2>
+      <h2 className={ styles.link }>Portfolio</h2>
     </div>
   )
 }

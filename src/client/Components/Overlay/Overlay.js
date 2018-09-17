@@ -1,14 +1,29 @@
 import React, { Component } from 'react';
 import styles from './Overlay.css';
 
+import Image from './Image/Image';
+import Details from './Details/Details';
+
 const Overlay = ({ info, onRemoveOverlay }) => {
   console.log(info);
+  console.log(info.mainImage);
   return (
     <div 
       id={ info.id }
       className={ styles.root } 
-      onClick={ onRemoveOverlay }
+      onClick= { onRemoveOverlay }
     >
+      <div className={ styles.content }>
+        <Image imgSrc={ info.mainImage }/>
+        <Details name={ info.name } description={ info.description }/>
+        {/* <h4>{ info.name } </h4>
+        {
+          info.technologies.map((tech) => (
+            <h4>{ tech }</h4>
+          ))
+        }
+        <p>{ info.description }</p> */}
+      </div>
     </div>
   );
 };

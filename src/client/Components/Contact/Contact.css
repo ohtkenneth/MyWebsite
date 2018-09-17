@@ -1,0 +1,5 @@
+:local(.root) {
+  display: flex;
+  height: 600px;
+  width: 100%;
+}

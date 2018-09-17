@@ -6,17 +6,6 @@ import portfolioInfo from './portfolioInfo.json';
 
 import styles from './PortfolioList.css';
 
-// const PortfolioList = () => {
-//   return (
-//     <div className={ styles.root }>
-//       {
-//         portfolioInfo.map((portfolioItem, index) => (
-//           <Card key={ portfolioItem.name } info={ portfolioItem }/>
-//         ))
-//       }
-//     </div>
-//   )
-// }
 class PortfolioList extends Component {
   constructor(props) {
     super(props);
@@ -37,7 +26,7 @@ class PortfolioList extends Component {
   onRemoveOverlay() {
     this.setState({
       currentOverlay: null,
-    })
+    });
   }
   render() {
     return (

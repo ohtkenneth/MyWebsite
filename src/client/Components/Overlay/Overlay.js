@@ -16,13 +16,6 @@ const Overlay = ({ info, onRemoveOverlay }) => {
       <div className={ styles.content }>
         <Image imgSrc={ info.mainImage }/>
         <Details name={ info.name } description={ info.description }/>
-        {/* <h4>{ info.name } </h4>
-        {
-          info.technologies.map((tech) => (
-            <h4>{ tech }</h4>
-          ))
-        }
-        <p>{ info.description }</p> */}
       </div>
     </div>
   );

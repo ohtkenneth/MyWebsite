@@ -3,7 +3,7 @@ import styles from './Contact.css';
 
 const Contact = () => {
   return (
-    <div className={ styles.root }>
+    <div id="contact" className={ styles.root }>
       hello world
     </div>
   )

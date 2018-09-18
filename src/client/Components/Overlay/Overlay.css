@@ -12,6 +12,26 @@
   bottom: 0;
   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  animation: fade-in 0.3s ease;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Fade out backgroud */
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 :local(.content) {
@@ -20,7 +40,7 @@
   align-items: center;
   width: 700px;
   background-color: white;
-  animation: slide-up 0.5s ease;
+  animation: slide-up 0.3s ease;
 }
 
 @keyframes slide-up {
@@ -31,5 +51,17 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Remove overlay animation on click */
+@keyframes slide-down {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50px);
   }
 }

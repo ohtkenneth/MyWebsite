@@ -7,13 +7,21 @@ import Details from './Details/Details';
 const Overlay = ({ info, onRemoveOverlay }) => {
   console.log(info);
   console.log(info.mainImage);
+  const removeOverlay = () => {
+    // add fade out animation
+    document.getElementById('overlay').style.animation = 'fade-out 0.3s ease';
+    document.getElementById('overlay-card').style.animation = 'slide-down 0.3s ease';
+    setTimeout(() => onRemoveOverlay(), 300);
+  };
+
   return (
     <div 
-      id={ info.id }
+      // id={ info.id }
+      id="overlay"
       className={ styles.root } 
-      onClick= { onRemoveOverlay }
+      onClick= { removeOverlay }
     >
-      <div className={ styles.content }>
+      <div id="overlay-card" className={ styles.content }>
         <Image imgSrc={ info.mainImage }/>
         <Details name={ info.name } description={ info.description }/>
       </div>

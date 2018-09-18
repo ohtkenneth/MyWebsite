@@ -10,29 +10,15 @@ import Profile from '../Profile/Profile';
 import MenuIcon from '@material-ui/icons/menu';
 import styles from './NavBar.css';
 
-// const NavBar = () => {
-//   return (
-//     <Routes />
-//   )
-// }
-
-// const Routes = () => (
-//   <Router>
-//     <div className={ styles.root }>
-//       <MenuIcon/>
-//       <Link to="/portfolio">Portfolio</Link>
-//       <Link to="/profile">Profile</Link>
-
-//       <Route exact path="/portfolio" component={ PortfolioList }/>
-//       <Route exact path="/profile" component={ Profile }/>
-//     </div>
-//   </Router>
-// )
 const NavBar = () => {
+  const scrollView = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth', block: 'center' });
+  };
   return (
     <div className={ styles.root} >
-      <h2 className={ styles.link }>Profile</h2>
-      <h2 className={ styles.link }>Portfolio</h2>
+      <h3 className={ styles.link } onClick={ () => scrollView('intro') }>Profile</h3>
+      <h3 className={ styles.link } onClick={ () => scrollView('portfolio') }>Portfolio</h3>
+      <h3 className={ styles.link } onClick={ () => scrollView('contact') }>Contact</h3>
     </div>
   )
 }

@@ -31,7 +31,7 @@ class PortfolioList extends Component {
   render() {
     return (
       // if currentOverlay, render it
-      <div className={ styles.root }>
+      <div id="portfolio" className={ styles.root }>
         {
           portfolioInfo.map((portfolioItem, index) => (
             <Card key={ portfolioItem.name } info={ portfolioItem } onOverlay={ this.onOverlay }/>

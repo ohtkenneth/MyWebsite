@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Intro from '../Intro/IntroSection';
+import ProfileSection from '../Profile/ProfileSection';
 import NavBar from '../Nav/NavBar';
 import VerticalContactBar from '../VerticalBar/VerticalContactBar';
 import PortfolioList from '../Portfolio/PortfolioList';
@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className={ styles.root }>
-        <Intro />
+        <ProfileSection />
         <NavBar />
         <VerticalContactBar />
         <PortfolioList />

@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 import PortfolioList from '../Portfolio/PortfolioList';
-import Profile from '../Profile/Profile';
+import ProfileSection from '../Profile/ProfileSection';
 import MenuIcon from '@material-ui/icons/menu';
 import styles from './NavBar.css';
 
@@ -16,9 +16,9 @@ const NavBar = () => {
   };
   return (
     <div className={ styles.root} >
-      <h3 className={ styles.link } onClick={ () => scrollView('intro') }>Profile</h3>
-      <h3 className={ styles.link } onClick={ () => scrollView('portfolio') }>Portfolio</h3>
-      <h3 className={ styles.link } onClick={ () => scrollView('contact') }>Contact</h3>
+      <h4 className={ styles.link } onClick={ () => scrollView('profile') }>Profile</h4>
+      <h4 className={ styles.link } onClick={ () => scrollView('portfolio') }>Portfolio</h4>
+      <h4 className={ styles.link } onClick={ () => scrollView('contact') }>Contact</h4>
     </div>
   )
 }

@@ -1,0 +1,9 @@
+:local(.iconLinkedIn) {
+  -webkit-animation: background-color 0.7s;
+  transition: background-color 0.7s;
+}
+
+:local(.iconLinkedIn:hover) {
+  background-color: #1178b3;
+  border-radius: 5px;
+}

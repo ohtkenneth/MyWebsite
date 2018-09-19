@@ -1,34 +1,22 @@
 import React from 'react';
 
 import styles from './VerticalContactBar.css';
-// icons
-import { svg as gmailIconSvg } from 'simple-icons/icons/gmail';
-import { svg as linkedInSvg } from 'simple-icons/icons/linkedin';
+import GmailIcon from '../ContactIcons/Gmail';
+import LinkedInIcon from '../ContactIcons/LinkedIn';
 
 const VerticalContactBar = (props) => {
+  const style = {
+    width: 50,
+    height: 50,
+    margin: '10px 0px 10px 0px'
+  };
   return (
     <div className={ styles.root }>
-      <GmailIcon />
-      <LinkedInIcon />
+      <GmailIcon style={ style } />
+      <LinkedInIcon style={ style } />
     </div>
-  )
+  );
 }
 
-const handleEmail = () => {
-  document.location = `mailto:ohtkenneth@gmail.com?subject=&body=`;
-};
-
-const handleLinkedIn = () => {
-  const tab = window.open('https://www.linkedin.com/in/kenneth-oh/', '_blank');
-  tab.focus();
-};
-
-const GmailIcon = () => (
-  <div onClick={ handleEmail } className={ styles.iconGmail } dangerouslySetInnerHTML={{__html: gmailIconSvg }} />
-);
-
-const LinkedInIcon = () => (
-  <div onClick={ handleLinkedIn } className={ styles.iconLinkedIn } dangerouslySetInnerHTML={{__html: linkedInSvg }} />
-)
 
 export default VerticalContactBar;

@@ -11,7 +11,7 @@ const Overlay = ({ info, onRemoveOverlay }) => {
     // add fade out animation
     document.getElementById('overlay').style.animation = 'fade-out 0.3s ease';
     document.getElementById('overlay-card').style.animation = 'slide-down 0.3s ease';
-    setTimeout(() => onRemoveOverlay(), 300);
+    setTimeout(() => onRemoveOverlay(), 250);
   };
 
   return (

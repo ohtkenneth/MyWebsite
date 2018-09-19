@@ -7,7 +7,6 @@ import {
 
 import PortfolioList from '../Portfolio/PortfolioList';
 import ProfileSection from '../Profile/ProfileSection';
-import MenuIcon from '@material-ui/icons/menu';
 import styles from './NavBar.css';
 
 const NavBar = () => {

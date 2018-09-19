@@ -1,0 +1,17 @@
+:local(.root) {
+  padding: 10px;
+  height: 50px;
+  border-radius: 5px;
+  animation: slide-up 0.75s ease-in;
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

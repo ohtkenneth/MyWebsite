@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 import ProfileSection from '../Profile/ProfileSection';
 import NavBar from '../Nav/NavBar';
 import VerticalContactBar from '../VerticalBar/VerticalContactBar';
+import Skills from '../Skills/Skills';
 import PortfolioList from '../Portfolio/PortfolioList';
 import Contact from '../Contact/Contact';
 
 import icons from '../utils/icons';
 
-import Button from '@material-ui/core/Button';
 import styles from './App.css';
 import { withStyles } from '@material-ui/core/styles';
 
@@ -19,6 +19,7 @@ class App extends Component {
         <ProfileSection />
         <NavBar />
         <VerticalContactBar />
+        <Skills />
         <PortfolioList />
         <Contact />
         <div className={ styles.wrap }>

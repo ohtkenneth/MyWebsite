@@ -1,7 +1,7 @@
 :local(.root) {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 600px;
   height: 400px;
   margin: 0px 25px 0px 25px;
   border: 0.05em solid black;

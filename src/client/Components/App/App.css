@@ -2,8 +2,20 @@
   margin: 0;
   height: 100%;
   width: 100%;
+  animation: slide-down 0.75s ease-in;
 }
 
 :local(.App) {
   
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

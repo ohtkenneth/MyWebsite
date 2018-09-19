@@ -3,3 +3,14 @@
   flex-direction: column;
   align-items: center;
 }
+
+:local(.high) {
+  display: flex;
+  align-items: center;
+}
+
+:local(.icon) {
+  width: 100px;
+  height: 100px;
+  margin: 0px 20px 0px 20px;
+}

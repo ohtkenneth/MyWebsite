@@ -11,7 +11,7 @@
   padding: 10px;
   background-color: #eeeeee;
   border-radius: 5px;
-  animation: slide-right 0.75s ease-in;
+  animation: slide-right 0.5s ease-in;
 }
 
 :local(.icon) {

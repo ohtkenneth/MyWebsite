@@ -9,6 +9,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+:local(.text-kenneth) {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #37a5da;
+}
+
 :local(.carousel-item) {
   display: flex;
   flex-direction: column;

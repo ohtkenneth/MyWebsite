@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  padding: 100px 0px 100px 0px;
+  padding: 4rem;
 }
 
 :local(.text) {
   font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  padding: 4rem;
 }
 
 :local(.import) {
@@ -24,8 +24,12 @@
 
 :local(.documentation) {
   color: #24d639;
-  margin: 0px 15px 0px 0px;
   font-size: 2rem;
+}
+
+:local(.semi) {
+  composes: from from;
+  margin: 0;
 }
 
 :local(.middle) {
@@ -33,14 +37,22 @@
 }
 
 @media(max-width: 1000px) {
+  :local(.root) {
+    padding: 0;
+  }
+  :local(.text) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   :local(.middle) {
     flex-wrap: wrap;
-    max-width: 500px;
-    backgound-color:black;
+    justify-content: center;
   }
   :local(.icon) {
     margin: 15px;
   }
+  
 }
 
 :local(.icon) {

@@ -14,13 +14,19 @@
   animation: slide-right 0.5s ease-in;
 }
 
-@keyframes slide-right {
+@keyframes slide-down {
   0% {
     opacity: 0;
-    transform: translateX(40px);
+    transform: translateY(40px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
+  }
+}
+
+@media(max-width: 1000px) {
+  :local(.root) {
+    display: none;
   }
 }

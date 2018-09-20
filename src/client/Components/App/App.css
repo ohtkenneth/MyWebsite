@@ -6,21 +6,24 @@
   margin: 0;
   height: 100%;
   width: 100%;
-  animation: slide-down 0.5s ease-in;
+  animation: fade-in 0.5s ease-in;
 }
 
-:local(.App) {
-  
+:local(.root) {
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes slide-down {
+:local(.section) {
+  padding: 15rem;
+}
+
+@keyframes fade-in {
   0% {
     opacity: 0;
-    transform: translateY(-20px);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 

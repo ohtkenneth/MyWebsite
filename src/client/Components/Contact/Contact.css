@@ -1,5 +1,6 @@
 :local(.root) {
   display: flex;
-  height: 400px;
-  width: 100%;
+  flex-direction: column;
+  /* background-color:#37a5da; */
+  padding: 5rem;
 }

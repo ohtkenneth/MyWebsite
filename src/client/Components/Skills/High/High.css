@@ -2,23 +2,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #e7e7e7;
+  padding: 7rem 0 7rem 0;
 }
 
 :local(.high) {
   display: flex;
   align-items: center;
-  margin: 0 0 20rem 0;
 }
 
 :local(.icon) {
-  width: 80px;
-  height: 80px;
-  margin: 0px 20px 0px 20px;
+  width: 6rem;
+  height: 6rem;
+  padding: 0 1rem 0 1rem;
 }
 
 :local(.quote) {
   font-family: "Courier New", Courier, monospace;
-  margin: 100px 0px 100px 0px;
+  padding: 0 0 4rem 0;
   font-size: 2rem;
+}
+
+@media(max-width: 1000px) {
+  :local(.root) {
+    padding: 0;
+  }
+  :local(.high) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  :local(.icon) {
+    margin: 15px;
+  }
 }

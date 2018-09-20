@@ -10,7 +10,7 @@
   overflow-x: hidden;
   width: 100%;
   padding: 10px;
-  background-color:#37a5da;
+  background-color:white;
 }
 
 :local(.link) {
@@ -22,5 +22,11 @@
 }
 
 :local(.link:hover) {
-  color: #a2a2a2;
+  color: #37a5da;
+}
+
+@media(max-width: 1000px) {
+  :local(.root) {
+    justify-content: center;
+  }
 }

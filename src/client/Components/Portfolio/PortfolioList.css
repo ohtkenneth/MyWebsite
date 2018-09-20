@@ -1,6 +1,15 @@
 :local(.root) {
   display: flex;
   justify-content: center;
-  height: 800px;
-  padding: 100px 0px 0px 0px
+  padding: 10rem 0 10rem 0;
+}
+
+@media(max-width: 1000px) {
+  :local(.root) {
+    flex-wrap: wrap;
+    backgound-color:black;
+  }
+  :local(.icon) {
+    margin: 15px;
+  }
 }

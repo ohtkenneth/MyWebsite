@@ -3,7 +3,7 @@ import styles from './High.css';
 const High = () => {
   return (
     <div className={ styles.root }>
-      <h2>"I got this."</h2>
+      <h2 className={ styles.quote }>"I got this."</h2>
       <div className={ styles.high }>
         <div className={ styles.icon }>
           {/* JS */}

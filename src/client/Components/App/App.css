@@ -1,3 +1,7 @@
+:global(html) {
+  font-size: 17px;
+}
+
 :global(body) {
   margin: 0;
   height: 100%;

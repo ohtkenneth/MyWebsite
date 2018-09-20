@@ -2,15 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #e7e7e7;
 }
 
 :local(.high) {
   display: flex;
   align-items: center;
+  margin: 0 0 20rem 0;
 }
 
 :local(.icon) {
   width: 80px;
   height: 80px;
   margin: 0px 20px 0px 20px;
+}
+
+:local(.quote) {
+  font-family: "Courier New", Courier, monospace;
+  margin: 100px 0px 100px 0px;
+  font-size: 2rem;
 }

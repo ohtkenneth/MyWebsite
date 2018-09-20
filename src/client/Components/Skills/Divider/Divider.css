@@ -1,0 +1,18 @@
+:local(.root) {
+  display: flex;
+  align-self: center;
+  margin: 10rem 0 10rem 0;
+  background-color: #37a5da;
+  height: 0.5rem;
+  animation: outward 0.5s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes outward {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}

@@ -4,7 +4,7 @@
   padding: 10rem 0 10rem 0;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 750px) {
   :local(.root) {
     flex-wrap: wrap;
     backgound-color:black;

@@ -34,7 +34,8 @@ class Contact extends Component {
   }
   handleIntersection(entries, observer) {
     // trigger css animation
-    console.log('nope')
+    console.log('nope');
+    document.querySelector('#contact').style.animation = 'fade-in 1s ease';
   }
   render() {
     return (

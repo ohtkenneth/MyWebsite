@@ -4,7 +4,7 @@ import styles from './HorizontalContactBar.css';
 const HorizontalContactBar = () => {
   return (
     <div className={ styles.root }>
-      Contact form
+      <h4>Email me</h4>
     </div>
   )
 };

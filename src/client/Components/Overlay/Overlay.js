@@ -5,8 +5,6 @@ import Image from './Image/Image';
 import Details from './Details/Details';
 
 const Overlay = ({ info, onRemoveOverlay }) => {
-  console.log(info);
-  console.log(info.mainImage);
   const removeOverlay = () => {
     // add fade out animation
     document.getElementById('overlay').style.animation = 'fade-out 0.3s ease';

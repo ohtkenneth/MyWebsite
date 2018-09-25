@@ -1,0 +1,26 @@
+:local(.root) {
+  composes: root from '../FrontEnd/FrontEnd.css';
+}
+
+:local(.icons) {
+  composes: icons from '../FrontEnd/FrontEnd.css';
+}
+
+:local(.icon) {
+  composes: icon from '../FrontEnd/FrontEnd.css';
+}
+
+:local(.digitalOcean) {
+  composes: icon;
+  fill: #0080FF;
+  fill-rule:evenodd;
+  clip-rule:evenodd;
+  fill:#0080FF;
+}
+
+:local(.heroku) {
+  width: 4rem;
+  height: 4rem;
+  padding: 0 1rem 0 1rem;
+}
+

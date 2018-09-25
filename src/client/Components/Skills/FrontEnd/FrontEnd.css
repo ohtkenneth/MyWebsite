@@ -1,0 +1,25 @@
+:local(.root) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:local(.icons) {
+  display: flex;
+  justify-content: center;
+}
+
+:local(.icon) {
+  width: 5rem;
+  height: 5rem;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+@media(max-width: 1500px) {
+  :local(.root) {
+    flex-wrap: wrap;
+  }
+  :local(.icon) {
+    margin: 1rem;
+  }
+}

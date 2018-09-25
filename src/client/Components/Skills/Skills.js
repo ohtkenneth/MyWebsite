@@ -4,16 +4,28 @@ import styles from './Skills.css';
 import High from './High/High';
 import Middle from './Middle/Middle';
 
+import FrontEnd from './FrontEnd/FrontEnd';
+import BackEnd from './BackEnd/BackEnd';
+import Testing from './Testing/Testing';
+import Deployment from './Deployment/Deployment';
 import Divider from './Divider/Divider';
 
 const Skills = () => {
   return (
     <div className={ styles.root }>
-      <High/>
+      {/* <High/>
+      
+      <Middle/> */}
+      <h1 className={ styles.heading }>Skills</h1>
+      <FrontEnd />
       <Divider/>
-      <Middle/>
+      <BackEnd />
+      <Divider/>
+      <Testing />
+      <Divider/>
+      <Deployment />
     </div>
-  )
+  );
 };
 
 export default Skills;

@@ -5,7 +5,7 @@ import styles from './FrontEnd.css';
 const FrontEnd = () => {
   return (
     <div className={ styles.root }>
-      <h2>Front End</h2>
+      <h2 className={ styles.heading }>Front End</h2>
       <div className={ styles.icons }>
         {/* js */}
         <div className={ styles.icon }>

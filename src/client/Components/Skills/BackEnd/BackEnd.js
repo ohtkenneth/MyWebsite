@@ -4,7 +4,7 @@ import styles from './BackEnd.css';
 const BackEnd = () => {
   return (
     <div className={ styles.root }>
-      <h1>Back End</h1>
+      <h2 className={ styles.heading }>Back End</h2>
       <div className={ styles.icons }>
         {/* nodejs */}
         <div className={ styles.icon }>

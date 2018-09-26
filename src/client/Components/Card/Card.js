@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './Header/Header';
 import Body from './Body/Image';
 import Footer from './Footer/Footer';
-import Overlay from '../Overlay/Overlay';
+import Modal from '../Modal/Modal';
 
 import styles from './Card.css';
 

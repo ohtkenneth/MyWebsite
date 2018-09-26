@@ -10,3 +10,6 @@
   composes: icon from '../FrontEnd/FrontEnd.css';
 }
 
+:local(.heading) {
+  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}

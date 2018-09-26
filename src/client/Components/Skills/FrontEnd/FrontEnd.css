@@ -15,7 +15,11 @@
   padding: 0 0.5rem 0 0.5rem;
 }
 
-@media(max-width: 1500px) {
+:local(.heading) {
+  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+@media(max-width: 1000px) {
   :local(.root) {
     flex-wrap: wrap;
   }

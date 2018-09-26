@@ -4,7 +4,7 @@ import styles from './Testing.css';
 const Testing = () => {
   return (
     <div className={ styles.root }>
-      <h1>Testing</h1>
+      <h2 className={ styles.heading }>Testing</h2>
       <div className={ styles.icons }>
         {/* jest */}
         <div className={ styles.icon }>

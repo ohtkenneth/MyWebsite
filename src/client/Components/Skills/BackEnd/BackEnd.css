@@ -2,6 +2,10 @@
   composes: root from '../FrontEnd/FrontEnd.css';
 }
 
+:local(.heading) {
+  composes: heading from '../FrontEnd/FrontEnd.css';
+}
+
 :local(.icons) {
   composes: icons from '../FrontEnd/FrontEnd.css';
 }

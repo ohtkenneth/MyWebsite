@@ -16,7 +16,7 @@ const Skills = () => {
       {/* <High/>
       
       <Middle/> */}
-      <h1 className={ styles.heading }>Skills</h1>
+      {/* <h1 className={ styles.heading }>Skills</h1> */}
       <FrontEnd />
       <Divider/>
       <BackEnd />

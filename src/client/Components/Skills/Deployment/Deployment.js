@@ -4,7 +4,7 @@ import styles from './Deployment.css';
 const Deployment = () => {
   return (
     <div className={ styles.root }>
-    <h1>Deployment</h1>
+    <h2 className={ styles.heading }>Deployment</h2>
       <div className={ styles.icons }>
         {/* docker */}
         <div className={ styles.icon}>

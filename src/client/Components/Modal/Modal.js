@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import styles from './Overlay.css';
+import styles from './Modal.css';
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import "react-responsive-carousel/lib/styles/carousel.css";
+import { Carousel } from 'react-responsive-carousel';
 
 import Image from './Image/Image';
 import Details from './Details/Details';
@@ -20,7 +24,7 @@ const Overlay = ({ info, onRemoveOverlay }) => {
       onClick= { removeOverlay }
     >
       <div id="overlay-card" className={ styles.content }>
-        <Image imgSrc={ info.mainImage }/>
+        <Image imgSrc={ info.mainImage } images={ info.images }/>
         <Details name={ info.name } description={ info.description }/>
       </div>
     </div>

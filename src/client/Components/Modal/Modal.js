@@ -1,30 +1,28 @@
 import React, { Component } from 'react';
 import styles from './Modal.css';
 
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import "react-responsive-carousel/lib/styles/carousel.css";
-import { Carousel } from 'react-responsive-carousel';
-
-import Image from './Image/Image';
+import ImageCarousel from './ImageCarousel/ImageCarousel';
 import Details from './Details/Details';
 
-const Overlay = ({ info, onRemoveOverlay }) => {
-  const removeOverlay = () => {
-    // add fade out animation
-    document.getElementById('overlay').style.animation = 'fade-out 0.3s ease';
-    document.getElementById('overlay-card').style.animation = 'fade-out 0.3s ease';
-    setTimeout(() => onRemoveOverlay(), 250);
+const Modal = ({ info, onRemoveModal }) => {
+  const removeModal = (e) => {
+    // add fade out animation if e is from modal
+    if (e.target.id === 'modal') {
+      document.getElementById('modal').style.animation = 'fade-out 0.3s ease';
+      document.getElementById('modal-card').style.animation = 'fade-out 0.3s ease';
+      setTimeout(() => onRemoveModal(), 250);
+    }
   };
 
   return (
     <div 
       // id={ info.id }
-      id="overlay"
+      id="modal"
       className={ styles.root } 
-      onClick= { removeOverlay }
+      onClick= { removeModal }
     >
-      <div id="overlay-card" className={ styles.content }>
-        <Image imgSrc={ info.mainImage } images={ info.images }/>
+      <div id="modal-card" className={ styles.content }>
+        <ImageCarousel imgSrc={ info.mainImage } images={ info.images }/>
         <Details name={ info.name } description={ info.description }/>
       </div>
     </div>
@@ -57,4 +55,4 @@ const Overlay = ({ info, onRemoveOverlay }) => {
 //   }
 // };
 
-export default Overlay;
+export default Modal;

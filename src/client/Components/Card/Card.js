@@ -7,9 +7,9 @@ import Modal from '../Modal/Modal';
 
 import styles from './Card.css';
 
-const Card = ({ info, onOverlay }) => {
+const Card = ({ info, onModal }) => {
   return (
-    <div className={ styles.root } onClick={ () => onOverlay(info.id) }>
+    <div className={ styles.root } onClick={ () => onModal(info.id) }>
       {/* info.technologies are technologies used in stack */}
       <Header technologies={ info.technologies }/>
       <Body imgSrc={ info.mainImage }/>

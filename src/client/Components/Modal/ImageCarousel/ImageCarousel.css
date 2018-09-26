@@ -1,0 +1,25 @@
+:local(.root) {
+  display: flex;
+  justify-content: center;
+}
+
+:local(.image) {
+  height: 60%;
+  width: 100%;
+  border: 0.01em solid black;
+}
+
+:local(.carousel-item) {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+:local(.carousel-item-image) {
+  height: 1000%;
+  width: 100%;
+  border: 0.01em solid black;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Card from '../Card/Card';
-import Overlay from '../Overlay/Overlay';
+import Modal from '../Modal/Modal';
 import portfolioInfo from './portfolioInfo.json';
 
 import styles from './PortfolioList.css';
@@ -11,37 +11,37 @@ class PortfolioList extends Component {
     super(props);
 
     this.state = {
-      // should be id of overlay
-      currentOverlay: null,
+      // should be id of Modal
+      currentModal: null,
     };
-    this.onOverlay = this.onOverlay.bind(this);
-    this.onRemoveOverlay = this.onRemoveOverlay.bind(this);
+    this.onModal = this.onModal.bind(this);
+    this.onRemoveModal = this.onRemoveModal.bind(this);
   }
-  onOverlay(id) {
+  onModal(id) {
     console.log('card clicked', id);
     this.setState({
-      currentOverlay: id,
+      currentModal: id,
     });
   }
-  onRemoveOverlay() {
+  onRemoveModal() {
     this.setState({
-      currentOverlay: null,
+      currentModal: null,
     });
   }
   render() {
     return (
-      // if currentOverlay, render it
+      // if currentModal, render it
       <div id="portfolio" className={ styles.root }>
         {
           portfolioInfo.map((portfolioItem, index) => (
-            <Card key={ portfolioItem.name } info={ portfolioItem } onOverlay={ this.onOverlay }/>
+            <Card key={ portfolioItem.name } info={ portfolioItem } onModal={ this.onModal }/>
           ))
         }
         {
-          this.state.currentOverlay ? (
-            <Overlay 
-              info={ portfolioInfo.find(item => item.id === this.state.currentOverlay)}
-              onRemoveOverlay={ this.onRemoveOverlay } 
+          this.state.currentModal ? (
+            <Modal 
+              info={ portfolioInfo.find(item => item.id === this.state.currentModal )}
+              onRemoveModal={ this.onRemoveModal } 
             />
           ) : void 0
         }

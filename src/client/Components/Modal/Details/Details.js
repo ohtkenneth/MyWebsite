@@ -5,7 +5,7 @@ const Details = ({ name, description }) => {
   return (
     <div className={ styles.root }>
       <div className={ styles.header }>
-        <h1 className={ styles.name }>{ name }</h1>
+        <h3 className={ styles.name }>{ name }</h3>
       </div>
       <p>{ description }</p>
     </div>

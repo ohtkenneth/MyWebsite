@@ -24,5 +24,15 @@
       "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg"
     ],
     "description": ""
+  },
+  {
+    "id": "fmdb",
+    "name": "fMDb",
+    "technologies": ["react", "node", "express", "mongodb", "docker", "aws", "jest", "enzyme"],
+    "description": "Microservice oriented application emulating the popular IMDb website",
+    "images:": [
+
+    ],
+    "points": []
   }
 ]

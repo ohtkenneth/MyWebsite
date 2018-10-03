@@ -18,7 +18,7 @@ class App extends Component {
       <div className={ styles.root }>
         <ProfileSection />
         <NavBar />
-        <VerticalContactBar />
+        {/* <VerticalContactBar /> */}
         <Skills />
         <PortfolioList />
         <div id="contact-intersection" className={ styles['contact-intersection']}></div>

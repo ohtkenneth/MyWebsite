@@ -1,29 +1,15 @@
 [
   {
-    "id": "xpg",
-    "name": "xmlParserGenerator",
-    "technologies": ["react", "aws", "node", "redux"],
-    "gist": "Tool to both generate and parse XML depending on specific parameters.",
-    "mainImage": "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B0xO8Q47eiwdg4eb8/abstract-minimal-moving-background-with-space-for-text-white-dots-keeps-connecting-on-2016-pantone-color-mix-rose-quartz-and-serenity-gradient-background_hxgiagcxe_thumbnail-full01.png",
-    "images": [ 
-      "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B0xO8Q47eiwdg4eb8/abstract-minimal-moving-background-with-space-for-text-white-dots-keeps-connecting-on-2016-pantone-color-mix-rose-quartz-and-serenity-gradient-background_hxgiagcxe_thumbnail-full01.png",
-      "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B0xO8Q47eiwdg4eb8/abstract-minimal-moving-background-with-space-for-text-white-dots-keeps-connecting-on-2016-pantone-color-mix-rose-quartz-and-serenity-gradient-background_hxgiagcxe_thumbnail-full01.png",
-      "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B0xO8Q47eiwdg4eb8/abstract-minimal-moving-background-with-space-for-text-white-dots-keeps-connecting-on-2016-pantone-color-mix-rose-quartz-and-serenity-gradient-background_hxgiagcxe_thumbnail-full01.png"
-    ],
-    "description": "XML Parser built for extracting information and generating XML for an education technology startup. Extracted information from thousands of XML entires from a configured XML schema. The XML parser could also dynamically generate XML with user defined values for educational content. Created entires were then saved to AWS DynamoDB."
-  },
-  {
     "id": "tp",
-    "name": "test project",
+    "name": "Suggestions",
     "technologies": ["angular", "aws"],
-    "gist": "A test app.",
+    "description": "Single Page Application that helps with discovery of points of interets in a specific location",
     "mainImage": "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
     "images": [
       "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
       "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
       "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg"
-    ],
-    "description": ""
+    ]
   },
   {
     "id": "fmdb",
@@ -33,6 +19,17 @@
     "images:": [
 
     ],
-    "points": []
+    "points": [
+      "Designed and built modular views with React for seamless integration with other application services",
+      "Automated build process using Grunt and S3 of team dependent files for immediate access",
+      "Deployed proxy server and microservices with Docker networking and AWS EC2 for modular scalability and maintainability",
+      "Configured Webpack to utilize CSS modules during React transpilation to avoid component styling conflicts across services"
+    ]
+  },
+  {
+    "id": "sdc",
+    "name": "",
+    "technologies": [],
+    "description": ""
   }
 ]

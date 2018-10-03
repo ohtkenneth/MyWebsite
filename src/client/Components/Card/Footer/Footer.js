@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Footer.css';
 
-const Footer = ({ name, gist}) => {
+const Footer = ({ name, description }) => {
   return (
-    <div className={ styles.root}>
+    <div className={ styles.root }>
       <h3>{ name }</h3>
-      <p>{ gist }</p>
+      <p>{ description }</p>
     </div>
   )
 }

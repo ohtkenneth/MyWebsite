@@ -32,11 +32,14 @@ class PortfolioList extends Component {
     return (
       // if currentModal, render it
       <div id="portfolio" className={ styles.root }>
+        <h3 className={ styles.heading }>Portfolio</h3>
+        <div className={ styles['cards-container'] }>
         {
           portfolioInfo.map((portfolioItem, index) => (
             <Card key={ portfolioItem.name } info={ portfolioItem } onModal={ this.onModal }/>
           ))
         }
+        </div>
         {
           this.state.currentModal ? (
             <Modal 

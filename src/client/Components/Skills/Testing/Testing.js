@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Testing.css';
 
+import Deployment from '../Deployment/Deployment';
+
 const Testing = () => {
   return (
     <div className={ styles.root }>
@@ -75,6 +77,7 @@ const Testing = () => {
             </g>
           </svg>
         </div>
+        <Deployment />
       </div>
     </div>
   );

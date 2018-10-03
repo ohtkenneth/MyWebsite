@@ -6,8 +6,8 @@ import LinkedInIcon from '../ContactIcons/LinkedIn';
 
 const VerticalContactBar = (props) => {
   const style = {
-    width: 50,
-    height: 50,
+    width: 25,
+    height: 25,
     margin: '10px 0px 10px 0px'
   };
   return (

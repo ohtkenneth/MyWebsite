@@ -12,7 +12,7 @@ const ImageCarousel = ({ imgSrc, images }) => {
     {/* <div className={ styles.root }>
       <img className={ styles.image } src={ imgSrc }/>
     </div> */}
-      <Carousel showArrows={ true } infiniteLoop={ true } showThumbs={ false }>
+      {/* <Carousel showArrows={ true } infiniteLoop={ true } showThumbs={ false }>
         {
           images.map((image, index) => (
             <div className={ styles['carousel-item']}>
@@ -20,7 +20,8 @@ const ImageCarousel = ({ imgSrc, images }) => {
             </div>
           ))
         }
-      </Carousel>
+      </Carousel> */}
+      <img className={ styles.image } src={ imgSrc }/>
     </div>
   );
 };

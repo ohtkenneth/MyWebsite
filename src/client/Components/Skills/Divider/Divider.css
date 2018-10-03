@@ -1,9 +1,9 @@
 :local(.root) {
   display: flex;
   align-self: center;
-  margin: 3rem 0 3rem 0;
+  margin: 2rem 0 2rem 0;
   background-color: #37a5da;
-  height: 0.5rem;
+  height: 0.25rem;
   animation: outward 0.5s ease-in;
   animation-fill-mode: forwards;
 }

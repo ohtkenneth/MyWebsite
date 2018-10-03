@@ -1,11 +1,22 @@
 :local(.root) {
   display: flex;
   justify-content: center;
-  padding: 10rem 0 10rem 0;
+  padding: 5rem 0 10rem 0;
+  flex-direction: column;
 }
 
-@media(max-width: 750px) {
-  :local(.root) {
+
+:local(.cards-container) {
+  display: flex;
+  justify-content: center;
+}
+
+:local(.heading) {
+  composes: heading from '../Skills/Skills.css';
+}
+
+@media(max-width: 1200px) {
+  :local(.cards-container) {
     flex-wrap: wrap;
     backgound-color:black;
   }

@@ -10,9 +10,10 @@
 }
 
 :local(.icon) {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   padding: 0 0.5rem 0 0.5rem;
+
 }
 
 :local(.heading) {

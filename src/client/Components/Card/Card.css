@@ -1,18 +1,25 @@
 :local(.root) {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 40%;
   height: 30rem;
   margin: 0 3rem 0 3rem;
   border: 0.05em solid black;
   border-radius: 2px; 
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.3s;
 }
 
-@media(max-width: 750) {
+:local(.root:hover) {
+  -webkit-box-shadow: 0px 0px 20px 8px #37a5da;
+  box-shadow: 0px 0px 20px 8px #37a5da;
+}
+
+@media (max-width: 700px) {
   :local(.root) {
-    margin: 3rem;
+    width: 95%;
+    margin: 2rem;
   }
   :local(.icon) {
     margin: 2rem;

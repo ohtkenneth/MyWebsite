@@ -13,7 +13,7 @@ const Card = ({ info, onModal }) => {
       {/* info.technologies are technologies used in stack */}
       <Header technologies={ info.technologies }/>
       <Body imgSrc={ info.mainImage }/>
-      <Footer name={ info.name } gist={ info.gist }/>
+      <Footer name={ info.name } description={ info.description }/>
     </div>
   );
 };

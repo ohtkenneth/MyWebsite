@@ -16,14 +16,14 @@ const Skills = () => {
       {/* <High/>
       
       <Middle/> */}
-      {/* <h1 className={ styles.heading }>Skills</h1> */}
+      <h3 className={ styles.heading }>Skills</h3>
+
       <FrontEnd />
       <Divider/>
       <BackEnd />
       <Divider/>
       <Testing />
-      <Divider/>
-      <Deployment />
+      {/* <Deployment /> */}
     </div>
   );
 };

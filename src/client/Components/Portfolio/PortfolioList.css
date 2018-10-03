@@ -1,7 +1,7 @@
 :local(.root) {
   display: flex;
   justify-content: center;
-  padding: 5rem 0 10rem 0;
+  padding: 5rem 0 5rem 0;
   flex-direction: column;
 }
 

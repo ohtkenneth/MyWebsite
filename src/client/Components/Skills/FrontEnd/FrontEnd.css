@@ -10,13 +10,14 @@
 }
 
 :local(.icon) {
-  width: 4rem;
-  height: 4rem;
-  padding: 0 0.5rem 0 0.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  padding: 1rem;
 
 }
 
 :local(.heading) {
+  font-size: 1.5rem;
   font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 

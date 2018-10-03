@@ -6,7 +6,7 @@ import Deployment from '../Deployment/Deployment';
 const Testing = () => {
   return (
     <div className={ styles.root }>
-      <h2 className={ styles.heading }>Testing</h2>
+      <h2 className={ styles.heading }>Testing / Deployment</h2>
       <div className={ styles.icons }>
         {/* jest */}
         <div className={ styles.icon }>

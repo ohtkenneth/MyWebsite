@@ -1,14 +1,15 @@
 :local(.root) {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  height: 30rem;
-  margin: 0 3rem 0 3rem;
+  width: 25rem;
+  height: 32rem;
+  margin: 2rem;
   border: 0.05em solid black;
   border-radius: 2px; 
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: box-shadow 0.3s;
+  flex-shrink:0;
 }
 
 :local(.root:hover) {
@@ -16,7 +17,7 @@
   box-shadow: 0px 0px 20px 8px #37a5da;
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   :local(.root) {
     width: 95%;
     margin: 2rem;
@@ -24,4 +25,4 @@
   :local(.icon) {
     margin: 2rem;
   }
-}
+} */

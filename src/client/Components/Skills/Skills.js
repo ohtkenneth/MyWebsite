@@ -12,7 +12,7 @@ import Divider from './Divider/Divider';
 
 const Skills = () => {
   return (
-    <div className={ styles.root }>
+    <div id="skills" className={ styles.root }>
       
       <FrontEnd />
       <Divider/>

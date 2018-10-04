@@ -16,3 +16,18 @@
 :local(.section-icon) {
   composes: section-icon from '../App/App.css';
 }
+
+:local(i) {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+}
+
+:local(i > span) {
+  font-size: 1rem;
+  padding-top: 1rem;
+  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}

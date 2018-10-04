@@ -2,6 +2,9 @@ const reactSvg = require('devicon/icons/react/react-original.svg')
 
 const iconFont = {
   fontSize: 35,
+  color: 'black',
+  margin: 0,
+  padding: '0.8rem',
 }
 
 const iconStyle = {

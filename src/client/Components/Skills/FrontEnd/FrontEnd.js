@@ -7,7 +7,7 @@ const FrontEnd = () => {
     <div className={ styles.root }>
       <h2 className={ styles.heading }>Front End</h2>
       <div className={ styles.icons }>
-        <i class="devicon-javascript-plain"><span>javascript</span></i>
+        <i className={`devicon-javascript-plain skill`}><span>javascript</span></i>
         <i class="devicon-react-original"><span>react.js</span></i>
         <i class="devicon-html5-plain"><span>HTML5</span></i>
         <i class="devicon-bootstrap-plain"><span>Bootstrap</span></i>

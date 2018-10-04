@@ -39,16 +39,17 @@
   flex-direction: column;
   align-items: center;
   width: 60%;
-  height: 60%;
+  height: 80%;
   background-color: white;
   animation: slide-up 0.3s ease;
+  overflow: auto;
 }
 
 @media(max-width: 1200px) {
-  :local(.content) {
+  /* :local(.content) {
     width: 60%;
     height: 60%;
-  }
+  } */
 }
 
 @keyframes slide-up {

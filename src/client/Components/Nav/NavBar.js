@@ -16,6 +16,7 @@ const NavBar = () => {
   return (
     <div className={ styles.root} >
       <h4 className={ styles.link } onClick={ () => scrollView('profile') }>Profile</h4>
+      <h4 className={ styles.link } onClick={ () => scrollView('skills') }>Skills</h4>
       <h4 className={ styles.link } onClick={ () => scrollView('portfolio') }>Portfolio</h4>
       <h4 className={ styles.link } onClick={ () => scrollView('contact') }>Contact</h4>
     </div>

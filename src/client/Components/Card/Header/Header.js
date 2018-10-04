@@ -5,7 +5,6 @@ import icons from '../../utils/icons';
 const Header = ({ technologies }) => {
   return (
     <div className={ styles.root }>
-      {/* icons[tech] gets svg tag */}
       {   
         technologies.map((tech, index) => (
           <div key={ tech } className={ styles.icon }>{ icons[tech] }</div>

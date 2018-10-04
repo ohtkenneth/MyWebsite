@@ -11,5 +11,5 @@
 }
 
 :local(.heading) {
-  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  composes: heading from '../FrontEnd/FrontEnd.css';
 }

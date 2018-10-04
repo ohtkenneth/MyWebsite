@@ -1,6 +1,7 @@
 :local(.root) {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
   height: 1rem;
   position: fixed;

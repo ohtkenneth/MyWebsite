@@ -32,7 +32,7 @@ class PortfolioList extends Component {
     return (
       // if currentModal, render it
       <div id="portfolio" className={ styles.root }>
-        <h3 className={ styles.heading }>Portfolio</h3>
+        {/* <h3 className={ styles.heading }>Portfolio</h3> */}
         <div className={ styles['cards-container'] }>
         {
           portfolioInfo.map((portfolioItem, index) => (

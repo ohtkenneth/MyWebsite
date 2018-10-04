@@ -13,11 +13,7 @@ import Divider from './Divider/Divider';
 const Skills = () => {
   return (
     <div className={ styles.root }>
-      {/* <High/>
       
-      <Middle/> */}
-      <h3 className={ styles.heading }>Skills</h3>
-
       <FrontEnd />
       <Divider/>
       <BackEnd />

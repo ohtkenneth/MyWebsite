@@ -2,14 +2,17 @@
   display: flex;
   flex-direction: column;
   padding: 7rem 0 7rem 0;
+  background-color: #37a5da;
 }
-
 :local(.heading) {
   font-size: 2.5rem;
-  background-color:#f5f5f5;
   padding: 2rem;
   text-align: center;
   /* align-self: center; */
   font-family: Arial, Helvetica, sans-serif;
   /* font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+}
+
+:local(.section-icon) {
+  composes: section-icon from '../App/App.css';
 }

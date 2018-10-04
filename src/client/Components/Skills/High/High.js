@@ -46,3 +46,4 @@ const High = () => {
 };
 
 export default High;
+

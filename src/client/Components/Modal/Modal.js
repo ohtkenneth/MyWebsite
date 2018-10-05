@@ -23,7 +23,7 @@ const Modal = ({ info, onRemoveModal }) => {
     >
       <div id="modal-card" className={ styles.content }>
         <ImageCarousel imgSrc={ info.mainImage } images={ info.images }/>
-        <Details name={ info.name } description={ info.description } points={ info.points }/>
+        <Details name={ info.name } description={ info.description } technologies={ info.technologies } points={ info.points }/>
       </div>
     </div>
   );

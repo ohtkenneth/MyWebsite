@@ -3,6 +3,7 @@
   flex-direction: column;
   padding: 5rem;
   padding-left: 15rem;
+  background-color: #ececec;
   -webkit-transition: background-color 0.3s;
 }
 
@@ -12,7 +13,11 @@
   -webkit-transition: color 0.3s;
 }
 
-:local(.root:hover) {
+:local(.heading-great) {
+  color: #37a5da;
+}
+
+/* :local(.root:hover) {
   background-color:#37a5da;
 }
 
@@ -27,4 +32,4 @@
   100% {
     opacity: 1;
   }
-}
+} */

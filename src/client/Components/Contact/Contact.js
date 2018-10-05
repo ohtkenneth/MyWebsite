@@ -40,7 +40,7 @@ class Contact extends Component {
   render() {
     return (
       <div id="contact" className={ styles.root }>
-        <h2 className={ styles.heading }>Let's build something great.</h2>
+        <h2 className={ styles.heading }>Let's build something <span className={ styles['heading-great']}>great.</span></h2>
         <HorizontalContactBar />
      </div>
     );

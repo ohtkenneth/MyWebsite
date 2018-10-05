@@ -5,7 +5,6 @@
   padding: 1rem;
   height: 2rem;
   overflow: hidden;
-  border-bottom: 1px solid black;
 }
 
 /* :local(.icon) {

@@ -1,15 +1,20 @@
-const reactSvg = require('devicon/icons/react/react-original.svg')
+const reactSvg = require('devicon/icons/react/react-original.svg');
+const styles = require('./styles.css');
 
+// font style for stylesheet
+const padding = '1rem';
 const iconFont = {
-  fontSize: 35,
+  fontSize: '3rem',
   color: 'black',
   margin: 0,
-  padding: '0.8rem',
+  padding,
 }
 
+// icon style for images
 const iconStyle = {
-  height: 35,
-  width: 35,
+  height: '3rem',
+  width: '3rem',
+  padding,
 };
 
 const icons = {
@@ -35,7 +40,10 @@ const icons = {
   express: (<i style={ iconFont } class="devicon-express-original"></i>),
   heroku: (<i style={ iconFont } class="devicon-heroku-original"></i>),
   postgresql: (<i style={ iconFont } class="devicon-postgresql-plain"></i>),
-
+  jest: (<img style={ iconStyle } src={ require('../icons/jestBlack.png') }/>),
+  mongoose: (<img className={ styles['png-icon'] } src={ require('../icons/mongooseBlack.png') }/>),
+  knex: (<img style={ iconStyle } src={ require('../icons/knexBlack.png') }/>),
+  travisci: (<i style={ iconFont } class="devicon-travis-plain"></i>)
 };
 
 export default icons;

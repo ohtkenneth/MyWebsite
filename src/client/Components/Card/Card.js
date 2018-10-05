@@ -11,7 +11,7 @@ const Card = ({ info, onModal }) => {
   return (
     <div className={ styles.root } onClick={ () => onModal(info.id) }>
       {/* info.technologies are technologies used in stack */}
-      <Header technologies={ info.technologies }/>
+      {/* <Header technologies={ info.technologies }/> */}
       <Body imgSrc={ info.mainImage }/>
       <Footer name={ info.name } description={ info.description }/>
     </div>

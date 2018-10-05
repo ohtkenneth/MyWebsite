@@ -9,7 +9,7 @@ const handleEmail = () => {
 
 const GmailIcon = ({ style }) => {
   return (
-    <div 
+    <div
       style={ style }
       onClick={ handleEmail } 
       className={ styles.iconGmail } 
@@ -19,3 +19,5 @@ const GmailIcon = ({ style }) => {
 };
 
 export default GmailIcon;
+
+      // src={ require('../icons/gmail-logo.png')}

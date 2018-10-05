@@ -1,9 +1,18 @@
 :local(.root) {
   display: flex;
   flex-direction: column;
-  padding: 7rem 0 7rem 0;
+  padding: 3rem 0 5rem 0;
   background-color: #37a5da;
 }
+
+:local(.section-heading) {
+  font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+  padding-left: 7rem;
+  /* text-decoration: underline; */
+  color: white;
+}
+
 :local(.heading) {
   font-size: 2.5rem;
   padding: 2rem;
@@ -30,4 +39,20 @@
   font-size: 1rem;
   padding-top: 1rem;
   font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+:local(.png-root) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+:local(.png-icon) {
+  width: 3rem;
+  height: 3rem;
+  padding: 2rem 2.5rem 0.9rem 2.25rem;
+  /* padding-bottom: 0.9rem; */
 }

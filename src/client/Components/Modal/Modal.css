@@ -42,6 +42,8 @@
   height: 80%;
   background-color: white;
   animation: slide-up 0.3s ease;
+  border-radius: 3px;
+  border: 0.1rem solid black;
   overflow: auto;
 }
 

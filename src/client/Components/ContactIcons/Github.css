@@ -1,10 +1,11 @@
-:local(.iconGmail) {
+:local(.iconGithub) {
   -webkit-animation: background-color 0.7s;
   transition: transform 0.3s;
 }
 
-:local(.iconGmail:hover) {
+:local(.iconGithub:hover) {
   transform: rotate(15deg);
-  /* background-color: #d34c42; */
+  cursor: crosshair;
+  /* background-color: white; */
   border-radius: 3px;
 }

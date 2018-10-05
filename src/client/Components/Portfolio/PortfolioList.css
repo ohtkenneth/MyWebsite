@@ -5,6 +5,11 @@
   flex-direction: column;
 }
 
+:local(.section-heading) {
+  composes: section-heading from '../Skills/Skills.css';
+  color: black;
+}
+
 :local(.cards-container) {
   display: flex;
   justify-content: center;

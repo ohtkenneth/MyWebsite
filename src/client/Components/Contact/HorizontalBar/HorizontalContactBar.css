@@ -1,8 +1,6 @@
 :local(.root) {
-  padding: 10px;
-  height: 50px;
-  border-radius: 5px;
-  animation: slide-up 0.75s ease-in;
+  display: flex;
+  padding: 2rem;
 }
 
 @keyframes slide-up {

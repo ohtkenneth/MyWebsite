@@ -13,3 +13,11 @@
 :local(.heading) {
   composes: heading from '../FrontEnd/FrontEnd.css';
 }
+
+:local(.png-root) {
+  composes: png-root from '../Skills.css';
+}
+
+:local(.png-icon) {
+  composes: png-icon from '../Skills.css';
+}

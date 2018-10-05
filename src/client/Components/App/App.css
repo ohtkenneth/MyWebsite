@@ -1,5 +1,6 @@
 :global(html) {
   font-size: 17px;
+  max-width: 100%;
 }
 
 :global(body) {

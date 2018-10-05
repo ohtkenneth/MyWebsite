@@ -2,7 +2,7 @@
   {
     "id": "tp",
     "name": "Suggestions",
-    "technologies": ["angular", "aws"],
+    "technologies": ["react", "bootstrap", "node", "express", "passport", "mongodb", "postgresql", "aws", "jest", "enzyme"],
     "description": "Single Page Application that helps with discovery of points of interets in a specific location",
     "mainImage": "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
     "images": [
@@ -20,7 +20,7 @@
   {
     "id": "fmdb",
     "name": "fMDb",
-    "technologies": ["react", "node", "express", "mongodb", "docker", "aws", "jest", "enzyme"],
+    "technologies": ["react", "node", "express", "mongodb", "postgresql", "docker", "aws", "jest", "enzyme"],
     "description": "Microservice oriented application emulating the popular IMDb website",
     "mainImage": "https://i.imgur.com/tvAVMw5.jpg",
     "images:": [
@@ -34,14 +34,15 @@
   },
   {
     "id": "sdc",
-    "name": "",
-    "technologies": [],
+    "name": "System Designs",
+    "technologies": ["react", "node", "express", "mongodb", "postgresql", "aws", "jest", "enzyme"],
     "description": "Something",
     "images": [],
-    "mainImage": "https://i.imgur.com/tvAVMw5.jpg",
+    "mainImage": "https://visusllc.com/images/default-source/services-platforms/system-design.png?sfvrsn=5c097ff9_4",
     "points": [
       "Reduced seed data generation of 10 million entries by 85% using Node.js streams to reduce memory overhead and write backpressure",
-      "Increaed MongoDB query execution speed up to 95% by indexing fields to increase document selectivity and prevent inefficient collection scanning"
+      "Increaed MongoDB query execution speed up to 95% by indexing fields to increase document selectivity and prevent inefficient collection scanning",
+      "Employed server side rendering of application that reduced website initial load times by x%"
     ]
   }
 ]

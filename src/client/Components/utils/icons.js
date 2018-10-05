@@ -29,6 +29,13 @@ const icons = {
   aws: (<i style={ iconFont } className="devicon-amazonwebservices-original colored"></i>),
   node: (<i style={ iconFont } className="devicon-nodejs-plain colored"></i>),
   backbone: (<i style={ iconFont } className="devicon-backbonejs-plain colored"></i>),
+  travisci: (<i style= { iconFont } class="devicon-travis-plain"></i>),
+  bootstrap: (<i style={ iconFont } class="devicon-bootstrap-plain"></i>),
+  docker: (<i style={ iconFont } class="devicon-docker-plain"></i>),
+  express: (<i style={ iconFont } class="devicon-express-original"></i>),
+  heroku: (<i style={ iconFont } class="devicon-heroku-original"></i>),
+  postgresql: (<i style={ iconFont } class="devicon-postgresql-plain"></i>),
+
 };
 
 export default icons;

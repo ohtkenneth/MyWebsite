@@ -26,7 +26,10 @@ class ProfileSection extends Component {
           <h3 className={ styles.text }>Hello, my name is</h3>
           <h1 className={ styles['text-kenneth'] }>Kenneth.</h1>
           <h3 className={ styles.text }>I'm a full-stack web developer.</h3>
-        </div> 
+        </div>
+        <div className={ styles.personal }>
+          <p>Maecenas tincidunt ultricies justo id luctus. Sed a diam felis. Nunc massa lacus, auctor eu sem id, vestibulum elementum lectus. Maecenas elementum a velit convallis posuere. In hac habitasse platea dictumst.</p>
+        </div>
       </div>
     );
   }

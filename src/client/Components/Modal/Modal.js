@@ -22,7 +22,7 @@ const Modal = ({ info, onRemoveModal }) => {
       onClick= { removeModal }
     >
       <div id="modal-card" className={ styles.content }>
-        <ImageCarousel imgSrc={ info.mainImage } images={ info.images }/>
+        {/* <ImageCarousel imgSrc={ info.mainImage } images={ info.images }/> */}
         <Details name={ info.name } description={ info.description } technologies={ info.technologies } points={ info.points }/>
       </div>
     </div>

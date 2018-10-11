@@ -2,7 +2,7 @@
   {
     "id": "sdc",
     "name": "System Design",
-    "technologies": ["react", "node", "express", "mongodb", "postgresql", "aws", "jest", "enzyme", "travisci"],
+    "technologies": ["react", "node", "express", "mongodb", "mongoose", "postgresql", "knex", "docker", "aws", "jest", "enzyme", "travisci"],
     "description": "Something",
     "images": [],
     "mainImage": "https://visusllc.com/images/default-source/services-platforms/system-design.png?sfvrsn=5c097ff9_4",
@@ -15,9 +15,9 @@
   {
     "id": "tp",
     "name": "Suggestions",
-    "technologies": ["react", "bootstrap", "node", "express", "passport", "mongodb", "postgresql", "aws", "jest", "enzyme", "travisci"],
+    "technologies": ["react", "bootstrap", "node", "express", "passport", "mongodb", "mongoose", "aws", "jest"],
     "description": "Single Page Application that helps with discovery of points of interets in a specific location",
-    "mainImage": "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
+    "mainImage": "https://melbournechapter.net/images/gps-clipart-logo-3.png",
     "images": [
       "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
       "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
@@ -33,9 +33,9 @@
   {
     "id": "fmdb",
     "name": "fMDb",
-    "technologies": ["react", "node", "express", "mongodb", "postgresql", "docker", "aws", "jest", "enzyme" , "travisci"],
+    "technologies": ["react", "node", "express", "mongodb", "mongoose", "docker", "aws", "jest", "enzyme" , "travisci"],
     "description": "Microservice oriented application emulating the popular IMDb website",
-    "mainImage": "https://i.imgur.com/tvAVMw5.jpg",
+    "mainImage": "https://s3-us-west-1.amazonaws.com/fec-imdb/fmdb.png",
     "images:": [
     ],
     "points": [

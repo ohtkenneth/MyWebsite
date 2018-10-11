@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production",
+    "server:prod": "node ./src/server.js",
     "server:dev": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "repository": {

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Details.css';
-import Technologies from '../../Card/Header/Header';
+import icons from '../../utils/icons';
+// import Technologies from '../Technologies/Technologies';
 
 const Details = ({ name, description, technologies, points }) => {
   return (
@@ -10,10 +11,16 @@ const Details = ({ name, description, technologies, points }) => {
       </div>
       {/* <p>{ description }</p> */}
 
-      <div className={ styles.technologies }>
+      {/* <div className={ styles.technologies }>
         <Technologies technologies={ technologies }/>
-      </div>
-      
+      </div> */}
+      {/* <div className={ styles.technologies }>
+        {   
+          technologies.map((tech, index) => (
+            <div key={ tech } className={ styles.icon }>{ icons[tech] }</div>
+          ))
+        }
+      </div> */}
 
       <div className={ styles['points-root'] }>
         {

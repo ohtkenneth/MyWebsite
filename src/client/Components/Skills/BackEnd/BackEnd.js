@@ -12,9 +12,9 @@ const BackEnd = () => {
         <i class="devicon-express-original"><span>Express.js</span></i>
         <i class="devicon-amazonwebservices-original"><span>AWS</span></i>
         <i class="devicon-mongodb-plain"><span>MongoDB</span></i>
-        <span className={ styles['png-root']}><img className={ styles['png-icon'] } src={ mongoose }/>Mongoose.js</span>
+        <span className={ styles['png-root']}><img className={ styles['png-icon'] } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/mongooseWhite.png'/>Mongoose.js</span>
         <i class="devicon-postgresql-plain"><span>PostgreSQL</span></i>
-        <span className={ styles['png-root']}><img className={ styles['png-icon'] } src={ knex }/>Knex.js</span>
+        <span className={ styles['png-root']}><img className={ styles['png-icon'] } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/knexWhite.png'/>Knex.js</span>
       </div>
     </div>
   );

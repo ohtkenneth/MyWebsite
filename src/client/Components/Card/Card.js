@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from './Header/Header';
+import icons from '../utils/icons';
 import Body from './Body/Image';
 import Footer from './Footer/Footer';
 import Modal from '../Modal/Modal';
@@ -12,8 +12,16 @@ const Card = ({ info, onModal }) => {
     <div className={ styles.root } onClick={ () => onModal(info.id) }>
       {/* info.technologies are technologies used in stack */}
       {/* <Header technologies={ info.technologies }/> */}
-      <Body imgSrc={ info.mainImage }/>
+      {/* <Body imgSrc={ info.mainImage }/> */}
+      
       <Footer name={ info.name } description={ info.description }/>
+      <div className={ styles.technologies }>
+        {   
+          info.technologies.map((tech, index) => (
+            <div key={ tech } className={ styles.icon }>{ icons[tech] }</div>
+          ))
+        }
+      </div>
     </div>
   );
 };

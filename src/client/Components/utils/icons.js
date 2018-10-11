@@ -40,10 +40,13 @@ const icons = {
   express: (<i style={ iconFont } class="devicon-express-original"></i>),
   heroku: (<i style={ iconFont } class="devicon-heroku-original"></i>),
   postgresql: (<i style={ iconFont } class="devicon-postgresql-plain"></i>),
-  jest: (<img style={ iconStyle } src={ require('../icons/jestBlack.png') }/>),
-  mongoose: (<img className={ styles['png-icon'] } src={ require('../icons/mongooseBlack.png') }/>),
-  knex: (<img style={ iconStyle } src={ require('../icons/knexBlack.png') }/>),
-  travisci: (<i style={ iconFont } class="devicon-travis-plain"></i>)
+  travisci: (<i style={ iconFont } class="devicon-travis-plain"></i>),
+  jest: (<img style={ iconStyle } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/jestBlack.png'/>),
+  mongoose: (<img style={ iconStyle } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/mongooseBlack.png'/>),
+  knex: (<img style={ iconStyle } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/knexBlack.png'/>),
+  // jest: (<img style={ iconStyle } src={ require('../icons/jestBlack.png') }/>),
+  // mongoose: (<img style={ iconStyle } src={ require('../icons/mongooseBlack.png') }/>),
+  // knex: (<img style={ iconStyle } src={ require('../icons/knexBlack.png') }/>),
 };
 
 export default icons;

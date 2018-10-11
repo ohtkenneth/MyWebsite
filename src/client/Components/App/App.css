@@ -25,6 +25,15 @@
   width: 7rem;
 }
 
+:local(.technologies) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  /* overflow: hidden; */
+  flex-shrink: 0;
+}
+
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -62,3 +71,4 @@
     align-items: center;
   }
 }
+

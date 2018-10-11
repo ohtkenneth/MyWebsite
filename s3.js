@@ -10,7 +10,7 @@ const client = s3.createClient({
 });
 
 const paramsBundle = {
-  localFile: path.resolve(__dirname, 'src/client/dist/bundle.js'),
+  localFile: path.resolve(__dirname, 'dist/bundle.js'),
   s3Params: {
     Bucket: process.env.MY_BUCKET,
     Key: "bundle.js",
@@ -18,7 +18,7 @@ const paramsBundle = {
 };
 
 const paramsStyles = {
-  localFile: path.resolve(__dirname, 'src/client/dist/styles.css'),
+  localFile: path.resolve(__dirname, 'dist/styles.css'),
   s3Params: {
     Bucket: process.env.MY_BUCKET,
     Key: "styles.css",

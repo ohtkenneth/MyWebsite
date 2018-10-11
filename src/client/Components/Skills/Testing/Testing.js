@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Testing.css';
 
 const Testing = () => {
-  const jest = require('../../icons/jestWhite.png');
+  // const jest = require('../../icons/jestWhite.png');
   return (
     <div className={ styles.root }>
       <h2 className={ styles.heading }>Testing / Deployment</h2>

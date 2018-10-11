@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './BackEnd.css';
 
 const BackEnd = () => {
-  const mongoose = require('../../icons/mongooseWhite.png');
-  const knex = require('../../icons/knexWhite.png');
+  // const mongoose = require('../../icons/mongooseWhite.png');
+  // const knex = require('../../icons/knexWhite.png');
   return (
     <div className={ styles.root }>
       <h2 className={ styles.heading }>Back End</h2>

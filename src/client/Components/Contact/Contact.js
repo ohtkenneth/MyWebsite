@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Contact.css';
 
-import HorizontalContactBar from './HorizontalBar/HorizontalContactBar';
 import GmailIcon from '../ContactIcons/Gmail';
 import LinkedInIcon from '../ContactIcons/LinkedIn';
 import GithubIcon from '../ContactIcons/Github';

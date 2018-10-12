@@ -20,7 +20,11 @@
   composes: heading from '../Skills/Skills.css';
 }
 
-@media(max-width: 1200px) {
+@media only screen and (min-width: 1500px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
   :local(.cards-container) {
     flex-wrap: wrap;
     backgound-color:black;
@@ -28,4 +32,18 @@
   :local(.icon) {
     margin: 15px;
   }
+}
+
+@media only screen and (max-width : 900px) {
+  :local(.root) {
+    align-items: center;
+    padding: 0;
+  }
+  :local(.section-heading) {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  
 }

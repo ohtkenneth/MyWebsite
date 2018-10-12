@@ -66,6 +66,7 @@
   }
   :local(.root) {
     align-items: center;
+    max-width: 900px;
   }
 }
 

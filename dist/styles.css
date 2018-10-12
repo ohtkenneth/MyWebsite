@@ -164,6 +164,8 @@
   .CR1yhnPJ4pOcbmtuHJjzb {
     justify-content: center;
     padding: 0;
+    left: 0;
+    right: 0;
     max-width: 100%;
   }
 }
@@ -258,7 +260,8 @@
   ._2Nk2Zjxy6dJhqMDp4al8_0 {
     align-items: center;
     padding: 1rem;
-    width: 100%;
+    background-color: white;
+    /* width: 100%; */
   }
 
   ._10IHPTBf4GdMgdwW45b82b {
@@ -350,6 +353,7 @@ body {
   }
   ._3nw7a7x0j0w_alu6PwZqF1 {
     align-items: center;
+    max-width: 900px;
   }
 }
 
@@ -406,7 +410,7 @@ body {
 
 ._3Jol-QCBJqGa4m8jkBN5nC {
   font-family: 'Lato', sans-serif;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 ._2RfRLgKFBOp3m4rRZSzVb6 {
@@ -444,6 +448,7 @@ a {
 @media only screen and (max-width : 900px) {
   ._2jEg7BQMRn309Nvk8TvIIV {
     flex-direction: column;
+    padding: 5rem 0 5rem 0;
   }
   ._3SND7orfAQ0zx8h1l6LYQv {
     align-items: center;
@@ -455,22 +460,6 @@ a {
 
 @media only screen and (max-width: 700px) {
 }
-
-/* 
-:local(.carousel-item) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 40rem;
-  background-color: white;
-} */
-/* 
-:local(li) {
-  height: 50px;
-  width: 50px;
-} */
-
 /* 
 :local(.root:hover) {
   background-color: #37a5da;
@@ -478,7 +467,8 @@ a {
 
 :local(.root:hover .text-kenneth) {
   color: white;
-} */._2EdjBv1d1dDM7i77FWE37O {
+} */
+._2EdjBv1d1dDM7i77FWE37O {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -556,7 +546,7 @@ a {
     width: 0;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }._3WpDp3GOzpg18l3qA_j8ux {
   display: flex;
@@ -583,16 +573,13 @@ a {
   box-shadow: 0px 0px 20px 20px #c2c2c2;
 }
 
-/* @media (max-width: 700px) {
-  :local(.root) {
-    width: 95%;
-    margin: 2rem;
+@media only screen and (max-width : 900px) {
+  ._3WpDp3GOzpg18l3qA_j8ux {
+    margin: 1.5rem 0 1.5rem 0;
+    padding: 0;
+    /* background-color: white; */
   }
-  :local(.icon) {
-    margin: 2rem;
-  }
-} */
-._1x44hNipcY3B7mUQjU_W28 {
+}._1x44hNipcY3B7mUQjU_W28 {
   display: flex;
   flex-direction: column;
   padding: 3rem 0 5rem 0;

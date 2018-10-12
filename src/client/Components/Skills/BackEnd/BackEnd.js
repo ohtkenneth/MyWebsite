@@ -10,7 +10,7 @@ const BackEnd = () => {
       <div className={ styles.icons }>
         <i class="devicon-nodejs-plain"><span>Node.js</span></i>
         <i class="devicon-express-original"><span>Express.js</span></i>
-        <i class="devicon-amazonwebservices-original"><span>AWS</span></i>
+        <i class="devicon-amazonwebservices-original"><span>&nbsp;&nbsp;AWS&nbsp;&nbsp;</span></i>
         <i class="devicon-mongodb-plain"><span>MongoDB</span></i>
         <span className={ styles['png-root']}><img className={ styles['png-icon'] } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/mongooseWhite.png'/>Mongoose.js</span>
         <i class="devicon-postgresql-plain"><span>PostgreSQL</span></i>

@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
   const { headers, method, url } = req;
   console.log(method, url);
   if (method === 'GET' && url === '/') {
-    fs.readFile(path.resolve(__dirname, 'client', 'dist', 'index.html'), 'utf8', (err, data) => {
+    fs.readFile(path.resolve(__dirname, '../dist', 'index.html'), 'utf8', (err, data) => {
       if (err) {
         console.log(err);
         res.statusCode = 500;

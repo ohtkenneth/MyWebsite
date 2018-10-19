@@ -13,9 +13,9 @@ class ProfileSection extends Component {
           <a href="http://www.linkedin.com/in/kenneth-oh" target="_blank"><h1 className={ styles['text-kenneth'] }>Kenneth.</h1></a>
           <h3 className={ styles.text }>I'm a full-stack web developer.</h3>
         </div>
-        <div className={ styles.personal }>
+        {/* <div className={ styles.personal }>
           <p>Motivated, disciplined, and diligent. I strive to learn and improve myself both in my personal life and professional career.</p>
-        </div>
+        </div> */}
       </div>
     );
   }

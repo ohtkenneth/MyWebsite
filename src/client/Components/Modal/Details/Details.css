@@ -10,7 +10,10 @@
   width: 100%;
   font-size: 1.75rem;
   margin: 0;
-  background-color: #c2c2c2;
+  background-color: #37a5da;
+  color:white;
+  /* background-color: #c2c2c2; */
+  /* border: 1px solid black; */
 }
 
 :local(.name) {
@@ -24,6 +27,7 @@
 :local(.points-root) {
   display: flex;
   flex-direction: column;
+  min-width: 100%;
 }
 
 :local(.point) {

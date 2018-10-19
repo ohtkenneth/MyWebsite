@@ -1,15 +1,16 @@
 [
   {
     "id": "sdc",
-    "name": "System Design",
-    "technologies": ["react", "node", "express", "mongodb", "mongoose", "postgresql", "knex", "docker", "aws", "jest", "enzyme", "travisci"],
-    "description": "Something",
+    "name": "Zphora",
+    "technologies": ["react", "node", "express", "mongodb", "mongoose", "postgresql", "knex", "redis", "docker", "aws", "nginx", "jest", "enzyme", "travisci"],
+    "description": "Sephora clone scaled and optimized to handle heavy traffic",
     "images": [],
     "mainImage": "https://visusllc.com/images/default-source/services-platforms/system-design.png?sfvrsn=5c097ff9_4",
     "points": [
-      "Reduced seed data generation of 10 million entries by 85% using Node.js streams to reduce memory overhead and write backpressure",
-      "Increased MongoDB query execution speed up to 95% by indexing fields to increase document selectivity and prevent inefficient collection scanning",
-      "Employed server side rendering of application that reduced website initial load times by x%"
+      "Reduced seed data generation time  of 10 million entries by 85% using Node.js streams to reduce memory overhead and write backpressure",
+      "Built server architecture that was capable of fulfilling 10,000 requests per second with an average latency of 70ms",
+      "Integrated Redis caching and NGINX proxy + load balancing to maximize AWS EC2 performance and reduce latency by up to 77%",
+      "Utilized MongoDB sharding to increase throughput by leveraging horizontal scaling across multiple EC2 t.2 micro instances" 
     ]
   },
   {

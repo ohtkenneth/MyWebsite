@@ -12,7 +12,7 @@ const Testing = () => {
         <i class="devicon-travis-plain"><span>Travis CI</span></i>
         <i class="devicon-docker-plain"><span>Docker</span></i>
         <i class="devicon-amazonwebservices-original"><span>AWS</span></i>
-        <i class="devicon-heroku-original"><span>Heroku</span></i>
+        <i class="devicon-nginx-original"><span>NGINX</span></i>
       </div>
     </div>
   );

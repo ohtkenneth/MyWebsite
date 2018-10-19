@@ -14,7 +14,7 @@ class ProfileSection extends Component {
           <h3 className={ styles.text }>I'm a full-stack web developer.</h3>
         </div>
         <div className={ styles.personal }>
-          <p>Maecenas tincidunt ultricies justo id luctus. Sed a diam felis. Nunc massa lacus, auctor eu sem id, vestibulum elementum lectus. Maecenas elementum a velit convallis posuere. In hac habitasse platea dictumst.</p>
+          <p>Motivated, disciplined, and diligent. I strive to learn and improve myself both in my personal life and professional career.</p>
         </div>
       </div>
     );

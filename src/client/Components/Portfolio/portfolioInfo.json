@@ -14,6 +14,21 @@
     ]
   },
   {
+    "id": "fmdb",
+    "name": "fMDb",
+    "technologies": ["react", "node", "express", "mongodb", "mongoose", "docker", "aws", "jest", "enzyme" , "travisci"],
+    "description": "Microservice oriented application emulating the popular IMDb website",
+    "mainImage": "https://s3-us-west-1.amazonaws.com/fec-imdb/fmdb.png",
+    "images:": [
+    ],
+    "points": [
+      "Designed and built modular views with React for integration with other application services",
+      "Automated build process using Grunt and S3 of team dependent files for immediate access",
+      "Deployed proxy server and microservices with Docker networking and AWS EC2 for modular scalability and maintainability",
+      "Configured Webpack to utilize CSS modules during React transpilation to avoid component styling conflicts across services"
+    ]
+  },
+  {
     "id": "tp",
     "name": "Suggestions",
     "technologies": ["react", "bootstrap", "node", "express", "passport", "mongodb", "mongoose", "aws", "jest"],
@@ -25,25 +40,9 @@
       "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg"
     ],
     "points": [
-      "Designed and built modular views with React for seamless integration with other application services",
-      "Automated build process using Grunt and S3 of team dependent files for immediate access",
-      "Deployed proxy server and microservices with Docker networking and AWS EC2 for modular scalability and maintainability",
-      "Configured Webpack to utilize CSS modules during React transpilation to avoid component styling conflicts across services"
-    ]
-  },
-  {
-    "id": "fmdb",
-    "name": "fMDb",
-    "technologies": ["react", "node", "express", "mongodb", "mongoose", "docker", "aws", "jest", "enzyme" , "travisci"],
-    "description": "Microservice oriented application emulating the popular IMDb website",
-    "mainImage": "https://s3-us-west-1.amazonaws.com/fec-imdb/fmdb.png",
-    "images:": [
-    ],
-    "points": [
-      "Designed and built modular views with React for seamless integration with other application services",
-      "Automated build process using Grunt and S3 of team dependent files for immediate access",
-      "Deployed proxy server and microservices with Docker networking and AWS EC2 for modular scalability and maintainability",
-      "Configured Webpack to utilize CSS modules during React transpilation to avoid component styling conflicts across services"
+      "Integrated OAuth 2.0 with Passport.js for quicker and more secure user authentication",
+      "Built search page component that lists multiple search query results from Yelp API for easier comparison across searches",
+      "Built map component with Google Maps API for visual reference of distance from selected points of interest"
     ]
   }
 ]

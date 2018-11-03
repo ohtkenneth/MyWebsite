@@ -5,6 +5,5 @@
 
 :local(.iconLinkedIn:hover) {
   transform: rotate(15deg);
-  /* background-color: #1178b3; */
   border-radius: 5px;
 }

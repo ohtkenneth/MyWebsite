@@ -18,13 +18,11 @@ class App extends Component {
       <div className={ styles.root }>
         <ProfileSection />
         <NavBar />
-        {/* <VerticalContactBar /> */}
         <Skills />
         <PortfolioList />
         <div id="contact-intersection" className={ styles['contact-intersection']}></div>
         <Contact />
         <div className={ styles.wrap }>
-          {/* Break site into horizontal sections */}
         </div>
       </div>
     );

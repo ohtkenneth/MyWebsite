@@ -19,5 +19,3 @@ const GmailIcon = ({ style }) => {
 };
 
 export default GmailIcon;
-
-      // src={ require('../icons/gmail-logo.png')}

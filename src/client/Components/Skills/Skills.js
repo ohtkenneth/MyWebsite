@@ -19,7 +19,6 @@ const Skills = () => {
       <BackEnd />
       <Divider/>
       <Testing />
-      {/* <Deployment /> */}
     </div>
   );
 };

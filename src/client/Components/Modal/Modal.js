@@ -16,43 +16,15 @@ const Modal = ({ info, onRemoveModal }) => {
 
   return (
     <div 
-      // id={ info.id }
       id="modal"
       className={ styles.root } 
       onClick= { removeModal }
     >
       <div id="modal-card" className={ styles.content }>
-        {/* <ImageCarousel imgSrc={ info.mainImage } images={ info.images }/> */}
         <Details name={ info.name } description={ info.description } technologies={ info.technologies } points={ info.points }/>
       </div>
     </div>
   );
 };
-
-// class Overlay extends Component {
-//   constructor({ info }) {
-//     super(info);
-
-//     this.state = {
-//       toggle: false,
-//     }
-//     this.toggleOverlay = this.toggleOverlay.bind(this);
-//   }
-//   toggleOverlay() {
-//     this.setState({
-//       toggle: !this.state.toggle,
-//     });
-//   }
-//   render() {
-//     return this.state.toggle ? (
-//       <div 
-//         id={ info.id }
-//         className={ styles.root } 
-//         onClick={ this.toggleOverlay }
-//         >
-//       </div>
-//     ) : null;
-//   }
-// };
 
 export default Modal;

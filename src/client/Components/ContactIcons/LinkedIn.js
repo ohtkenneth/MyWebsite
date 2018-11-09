@@ -1,6 +1,6 @@
 import React from 'react';
 import { svg as linkedInSvg } from 'simple-icons/icons/linkedin';
-import styles from './LinkedIn.css';
+import styles from './styles.css';
 
 const handleLinkedIn = () => {
   const tab = window.open('https://www.linkedin.com/in/kenneth-oh/', '_blank');
@@ -12,7 +12,7 @@ const LinkedInIcon = ({ style }) => {
     <div 
       style={ style }
       onClick={ handleLinkedIn } 
-      className={ styles.iconLinkedIn } 
+      className={ styles['contact contact-linkedin'] } 
       dangerouslySetInnerHTML={{__html: linkedInSvg }} />
   );
 }

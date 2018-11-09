@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Gmail.css';
+import styles from './styles.css';
 // icons
 import { svg as gmailIconSvg } from 'simple-icons/icons/gmail';
 
@@ -12,7 +12,7 @@ const GmailIcon = ({ style }) => {
     <div
       style={ style }
       onClick={ handleEmail } 
-      className={ styles.iconGmail } 
+      className={ styles['contact contact-gmail'] } 
       dangerouslySetInnerHTML={{__html: gmailIconSvg }} 
     />
   );

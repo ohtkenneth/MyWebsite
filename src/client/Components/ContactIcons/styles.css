@@ -1,0 +1,52 @@
+:local(.contact) {
+  display: block;
+  position: relative;
+}
+
+:local(.contact-github::after) {
+  content: url('../../../../node_modules/simple-icons/icons/github.svg');
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+:local(.contact-github:hover::after) {
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+:local(.contact-gmail::after) {
+  content: url('../../../../node_modules/simple-icons/icons/gmail.svg');
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+:local(.contact-gmail:hover::after) {
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+:local(.contact-linkedin::after) {
+  content: url('../../../../node_modules/simple-icons/icons/linkedin.svg');
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+:local(.contact-linkedin:hover::after) {
+  transform: scale(1.5);
+  opacity: 0;
+}

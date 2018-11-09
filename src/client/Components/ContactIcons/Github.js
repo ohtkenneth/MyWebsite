@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Github.css';
+import styles from './styles.css';
 // icons
 import { svg as githubIcon } from 'simple-icons/icons/github';
 
@@ -13,7 +13,7 @@ const GithubIcon = ({ style }) => {
     <div 
       style={ style }
       onClick={ handleGithub } 
-      className={ styles.iconGithub } 
+      className={ `${styles.contact} ${styles['contact-github']}` } 
       dangerouslySetInnerHTML={{__html: githubIcon }} 
     />
   );

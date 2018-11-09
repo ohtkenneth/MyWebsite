@@ -5,12 +5,11 @@ import GmailIcon from '../ContactIcons/Gmail';
 import LinkedInIcon from '../ContactIcons/LinkedIn';
 import GithubIcon from '../ContactIcons/Github';
 
-
 const Contact = () => {
   const style = {
     width: '4rem',
     height: '4rem',
-    margin: '1rem',
+    margin: '1rem 2rem',
   };
   return (
     <div id="contact" className={ styles.root }>

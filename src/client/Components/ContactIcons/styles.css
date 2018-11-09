@@ -11,7 +11,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  transition: all 0.4s;
+  transition: all 0.75s;
 }
 
 :local(.contact-github:hover::after) {
@@ -21,18 +21,20 @@
 
 :local(.contact-gmail::after) {
   content: url('../../../../node_modules/simple-icons/icons/gmail.svg');
-  display: block;
+  display: hidden;
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 90%;
   width: 100%;
-  transition: all 0.4s;
+  border-radius: 15px;
+  transition: all 0.75s;
 }
 
 :local(.contact-gmail:hover::after) {
   transform: scale(1.5);
   opacity: 0;
+  background-color: #e46c64;
 }
 
 :local(.contact-linkedin::after) {
@@ -43,10 +45,11 @@
   left: 0;
   height: 100%;
   width: 100%;
-  transition: all 0.4s;
+  transition: all 0.75s;
 }
 
 :local(.contact-linkedin:hover::after) {
   transform: scale(1.5);
   opacity: 0;
+  background-color: #0077b5;
 }

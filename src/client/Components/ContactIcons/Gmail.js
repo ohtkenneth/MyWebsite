@@ -12,7 +12,7 @@ const GmailIcon = ({ style }) => {
     <div
       style={ style }
       onClick={ handleEmail } 
-      className={ styles['contact contact-gmail'] } 
+      className={ `${styles.contact} ${styles['contact-gmail']}` } 
       dangerouslySetInnerHTML={{__html: gmailIconSvg }} 
     />
   );

@@ -12,7 +12,7 @@ const LinkedInIcon = ({ style }) => {
     <div 
       style={ style }
       onClick={ handleLinkedIn } 
-      className={ styles['contact contact-linkedin'] } 
+      className={ `${styles.contact} ${styles['contact-linkedin']}` } 
       dangerouslySetInnerHTML={{__html: linkedInSvg }} />
   );
 }

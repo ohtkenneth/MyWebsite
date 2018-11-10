@@ -24,12 +24,11 @@
   box-shadow: 0 25px 25px 5px #c2c2c2;
   transform: translateY(-0.5rem);
 }
-
+/* 
 @media only screen and (max-width : 900px) {
   :local(.root) {
     margin: 1.5rem 0 1.5rem 0;
     padding: 0;
-    /* background-color: white; */
     width: 90%;
   }
-}
+} */

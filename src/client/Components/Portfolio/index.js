@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Card from '../Card/Card';
-import Modal from '../Modal/Modal';
+import Card from '../Card/index';
+import Modal from '../Modal/index';
 import portfolioInfo from './portfolioInfo.json';
 
 import styles from './PortfolioList.css';

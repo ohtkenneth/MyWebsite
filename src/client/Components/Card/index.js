@@ -1,11 +1,11 @@
 import React from 'react';
 
 import icons from '../utils/icons';
-import Body from './Body/Image';
-import Footer from './Footer/Footer';
-import Modal from '../Modal/Modal';
+import Body from './Body/index';
+import Footer from './Footer/index';
+import Modal from '../Modal/index';
 
-import styles from './Card.css';
+import styles from './style.css';
 
 const Card = ({ info, onModal }) => {
   return (

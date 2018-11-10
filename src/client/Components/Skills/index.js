@@ -1,8 +1,5 @@
 import React from 'react';
-import styles from './Skills.css';
-
-import High from './High/High';
-import Middle from './Middle/Middle';
+import style from './style.css';
 
 import FrontEnd from './FrontEnd/FrontEnd';
 import BackEnd from './BackEnd/BackEnd';
@@ -12,8 +9,8 @@ import Divider from './Divider/Divider';
 
 const Skills = () => {
   return (
-    <div id="skills" className={ styles.root }>
-      <h2 className={ styles['section-heading']}>Skills</h2>
+    <div id="skills" className={ style.root }>
+      <h2 className={ style['section-heading']}>Skills</h2>
       <FrontEnd />
       <Divider/>
       <BackEnd />

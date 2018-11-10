@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import styles from './Modal.css';
-
-import ImageCarousel from './ImageCarousel/ImageCarousel';
+import styles from './style.css';
 import Details from './Details/Details';
 
 const Modal = ({ info, onRemoveModal }) => {

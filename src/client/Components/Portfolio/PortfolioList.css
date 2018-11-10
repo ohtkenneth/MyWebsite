@@ -6,7 +6,7 @@
 }
 
 :local(.section-heading) {
-  composes: section-heading from '../Skills/Skills.css';
+  composes: section-heading from '../Skills/style.css';
   color: black;
 }
 
@@ -17,7 +17,7 @@
 }
 
 :local(.heading) {
-  composes: heading from '../Skills/Skills.css';
+  composes: heading from '../Skills/style.css';
 }
 
 @media only screen and (min-width: 1500px) {

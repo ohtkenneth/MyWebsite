@@ -45,7 +45,7 @@
 }
 
 :local(.technologies) {
-  composes: technologies from '../../App/App.css';
+  composes: technologies from '../../App/style.css';
 }
 
 @media only screen and (max-width : 900px) {

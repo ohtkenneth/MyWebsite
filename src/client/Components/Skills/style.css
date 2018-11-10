@@ -21,7 +21,7 @@
 }
 
 :local(.section-icon) {
-  composes: section-icon from '../App/App.css';
+  composes: section-icon from '../App/style.css';
 }
 
 :local(i) {

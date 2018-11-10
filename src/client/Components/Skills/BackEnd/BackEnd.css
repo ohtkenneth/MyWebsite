@@ -15,9 +15,9 @@
 }
 
 :local(.png-root) {
-  composes: png-root from '../Skills.css';
+  composes: png-root from '../style.css';
 }
 
 :local(.png-icon) {
-  composes: png-icon from '../Skills.css';
+  composes: png-icon from '../style.css';
 }

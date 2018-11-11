@@ -1,3 +1,9 @@
+:local(span) {
+  color: white;
+  font-size: 1rem;
+  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
 :local(i) {
   font-size: 3rem;
   display: flex;
@@ -5,21 +11,12 @@
   align-items: center;
   padding: 2rem;
   color: white;
-
-  span {
-    font-size: 1rem;
-    padding-top: 1rem;
-    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-  }
 }
 
 :local(.skill) {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
-  font-size: 1rem;
-  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
   &__icon {
     min-width: 3rem;

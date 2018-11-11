@@ -25,6 +25,9 @@ module.exports = {
           'css-loader',
           'sass-loader',
         ],
+        options: {
+          localIdentName: '[local]__[hash:base64:5]',
+        }
       },
       {
         test: /\.svg/,

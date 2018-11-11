@@ -8,20 +8,17 @@ import Contact from '../Contact/index';
 
 import style from './style.scss';
 import '../sass/main.scss';
-// import { withStyles } from '@material-ui/core/style';
 
 class App extends Component {
   render() {
     return (
-      <div className={ style.root }>
+      <div className={ style.app }>
         <ProfileSection />
         <NavBar />
         <Skills />
         <PortfolioList />
         <div id="contact-intersection" className={ style['contact-intersection']}></div>
-          <Contact />
-        <div className={ style.wrap }>
-        </div>
+        <Contact />
       </div>
     );
   }

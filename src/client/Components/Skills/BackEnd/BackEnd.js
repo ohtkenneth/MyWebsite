@@ -13,37 +13,37 @@ const BackEnd = () => {
     {
       type: 'font',
       text: 'Express.js',
-      src: 'devicon-nodejs-plain'
+      src: 'devicon-express-original'
     },
     {
       type: 'font',
       text: 'AWS',
-      src: 'devicon-nodejs-plain'
+      src: 'devicon-amazonwebservices-original'
     },
     {
       type: 'font',
       text: 'Redis',
-      src: 'devicon-nodejs-plain'
+      src: 'devicon-redis-plain'
     },
     {
       type: 'font',
       text: 'MongoDB',
-      src: 'devicon-nodejs-plain'
+      src: 'devicon-mongodb-plain'
     },
     {
       type: 'image',
       text: 'Mongoose.js',
-      src: 'devicon-nodejs-plain'
+      src: 'https://s3-us-west-1.amazonaws.com/ktowebsitefiles/mongooseWhite.png'
     },
     {
       type: 'font',
       text: 'PostgreSQL',
-      src: 'devicon-nodejs-plain'
+      src: 'devicon-postgresql-plain'
     },
     {
       type: 'image',
       text: 'Knex.js',
-      src: 'devicon-nodejs-plain'
+      src: 'https://s3-us-west-1.amazonaws.com/ktowebsitefiles/knexWhite.png'
     }
   ];
 

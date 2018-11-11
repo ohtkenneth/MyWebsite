@@ -1,17 +1,52 @@
 import React from 'react';
 
-import styles from './FrontEnd.css';
+import Skill from '../Skill/index';
+import styles from './FrontEnd.scss';
 
 const FrontEnd = () => {
+  // &nbsp;
+  const skills = [
+    {
+      type: 'font',
+      text: '  HTML5  ',
+      src: 'devicon-html5-plain',
+    },
+    {
+      type: 'font',
+      text: 'CSS3',
+      src: 'devicon-css3-plain',
+    },
+    {
+      type: 'font',
+      text: 'JavaScript',
+      src: 'devicon-javascript-plain',
+    },
+    {
+      type: 'font',
+      text: 'React',
+      src: 'devicon-react-original',
+    },
+    // redux: {
+    //   type: 'font',
+    //   text: 'JavaScript',
+    //   src: 'devicon-javascript-plain',
+    // },
+    {
+      type: 'font',
+      text: 'Bootstrap',
+      src: 'devicon-bootstrap-plain',
+    }
+  ];
+
   return (
     <div className={ styles.root }>
       <h2 className={ styles.heading }>Front End</h2>
       <div className={ styles.icons }>
-        <i class="devicon-html5-plain"><span>&nbsp;&nbsp;HTML5&nbsp;</span></i>
-        <i class="devicon-css3-plain"><span>&nbsp;&nbsp;CSS3&nbsp;</span></i>
-        <i class={`devicon-javascript-plain skill`}><span>JavaScript</span></i>
-        <i class="devicon-react-original"><span>React.js</span></i>
-        <i class="devicon-bootstrap-plain"><span>Bootstrap</span></i>
+        { 
+          skills.map(skill => (
+            <Skill type={ skill.type } text={ skill.text } src={ skill.src }/>
+          ))
+        }
       </div>
     </div>
   );

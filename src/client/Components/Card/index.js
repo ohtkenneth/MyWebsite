@@ -5,7 +5,7 @@ import Body from './Body/index';
 import Footer from './Footer/index';
 import Modal from '../Modal/index';
 
-import style from './style.css';
+import style from './style.scss';
 
 const Card = ({ info, onModal }) => {
   return (

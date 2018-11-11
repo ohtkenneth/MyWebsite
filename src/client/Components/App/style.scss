@@ -32,26 +32,10 @@
   flex-shrink: 0;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 :local(.contact-intersection) {
   width: 100%;
   height: 1px;
 }
-
-/* @media only screen and (min-width: 1500px) {
-  :global(html) {
-    font-size: 25px;
-  }
-}
- */
 
 @media only screen and (min-width: 1200px) {
   :global(html) {
@@ -82,3 +66,11 @@
   }
 }
 
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

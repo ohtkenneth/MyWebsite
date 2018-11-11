@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './High.css';
+import styles from './High.scss';
 
 const High = () => {
   return (

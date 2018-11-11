@@ -1,6 +1,6 @@
 import React from 'react';
 import { svg as linkedInSvg } from 'simple-icons/icons/linkedin';
-import styles from './styles.css';
+import styles from './styles.scss';
 
 const handleLinkedIn = () => {
   const tab = window.open('https://www.linkedin.com/in/kenneth-oh/', '_blank');

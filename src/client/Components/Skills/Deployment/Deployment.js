@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Deployment.css';
+import styles from './Deployment.scss';
 
 const Deployment = () => {
   return (

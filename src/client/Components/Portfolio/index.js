@@ -4,7 +4,7 @@ import Card from '../Card/index';
 import Modal from '../Modal/index';
 import portfolioInfo from './portfolioInfo.json';
 
-import style from './style.css';
+import style from './style.scss';
 
 class PortfolioList extends Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 :local(.root) {
-  composes: root from '../FrontEnd/FrontEnd.css';
+  composes: root from '../FrontEnd/FrontEnd.scss';
 }
 
 :local(.heading) {
@@ -7,11 +7,11 @@
 }
 
 :local(.icons) {
-  composes: icons from '../FrontEnd/FrontEnd.css';
+  composes: icons from '../FrontEnd/FrontEnd.scss';
 }
 
 :local(.icon) {
-  composes: icon from '../FrontEnd/FrontEnd.css';
+  composes: icon from '../FrontEnd/FrontEnd.scss';
 }
 
 :local(.digitalOcean) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Middle.css';
+import styles from './Middle.scss';
 const Middle = () => {
   return (
     <div className={ styles.root }>

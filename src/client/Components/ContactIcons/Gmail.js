@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles.css';
+import styles from './styles.scss';
 // icons
 import { svg as gmailIconSvg } from 'simple-icons/icons/gmail';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './VerticalContactBar.css';
+import styles from './VerticalContactBar.scss';
 import GmailIcon from '../ContactIcons/Gmail';
 import LinkedInIcon from '../ContactIcons/LinkedIn';
 

@@ -6,7 +6,7 @@ import Skills from '../Skills/index';
 import PortfolioList from '../Portfolio/index';
 import Contact from '../Contact/index';
 
-import style from './style.css';
+import style from './style.scss';
 // import { withStyles } from '@material-ui/core/style';
 
 class App extends Component {

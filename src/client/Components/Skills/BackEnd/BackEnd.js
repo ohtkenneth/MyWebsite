@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './BackEnd.css';
+import styles from './BackEnd.scss';
 
 const BackEnd = () => {
   return (

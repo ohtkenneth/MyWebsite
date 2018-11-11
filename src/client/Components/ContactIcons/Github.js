@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles.css';
+import styles from './styles.scss';
 // icons
 import { svg as githubIcon } from 'simple-icons/icons/github';
 

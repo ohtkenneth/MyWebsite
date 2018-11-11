@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './style.css';
+import style from './style.scss';
 
 import FrontEnd from './FrontEnd/FrontEnd';
 import BackEnd from './BackEnd/BackEnd';

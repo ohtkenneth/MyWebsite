@@ -13,7 +13,7 @@
 }
 
 :local(.card__technologies) {
-  composes: technologies from '../App/style.css';
+  composes: technologies from '../App/style.scss';
   padding: 0.5rem;
   flex-wrap: wrap;
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import "react-responsive-carousel/lib/style/carousel.min.css";
 // import "react-responsive-carousel/lib/style/carousel.css";
 import { Carousel } from 'react-responsive-carousel';
-import style from './style.css';
+import style from './style.scss';
 
 class ProfileSection extends Component {
   render() {

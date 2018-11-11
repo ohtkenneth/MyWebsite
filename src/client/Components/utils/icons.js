@@ -1,5 +1,5 @@
 const reactSvg = require('devicon/icons/react/react-original.svg');
-const styles = require('./styles.css');
+const styles = require('./styles.scss');
 
 // font style for stylesheet
 const padding = '1rem';

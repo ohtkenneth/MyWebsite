@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from './style.css';
+import style from './style.scss';
 
 import GmailIcon from '../ContactIcons/Gmail';
 import LinkedInIcon from '../ContactIcons/LinkedIn';

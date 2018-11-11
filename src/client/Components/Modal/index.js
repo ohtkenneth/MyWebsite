@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './style.css';
+import styles from './style.scss';
 import Details from './Details/index';
 
 const Modal = ({ info, onRemoveModal }) => {

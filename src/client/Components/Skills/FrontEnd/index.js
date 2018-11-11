@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Skill from '../Skill/index';
-import styles from './FrontEnd.scss';
+import style from './style.scss';
 
 const FrontEnd = () => {
   // &nbsp;
@@ -39,9 +39,9 @@ const FrontEnd = () => {
   ];
 
   return (
-    <div className={ styles.root }>
-      <h2 className={ styles.heading }>Front End</h2>
-      <div className={ styles.icons }>
+    <div className={ style.root }>
+      <h2 className={ style.heading }>Front End</h2>
+      <div className={ style.icons }>
         { 
           skills.map(skill => (
             <Skill type={ skill.type } text={ skill.text } src={ skill.src }/>

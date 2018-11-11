@@ -1,23 +1,25 @@
-:local(.root) {
-  composes: root from '../FrontEnd/FrontEnd.scss';
-}
+@import '../style.scss';
 
-:local(.heading) {
-  composes: heading from '../FrontEnd/FrontEnd.scss';
-}
+// :local(.root) {
+//   composes: root from '../FrontEnd/FrontEnd.scss';
+// }
 
-:local(.icons) {
-  composes: icons from '../FrontEnd/FrontEnd.scss';
-}
+// :local(.heading) {
+//   composes: heading from '../FrontEnd/FrontEnd.scss';
+// }
 
-:local(.icon) {
-  composes: icon from '../FrontEnd/FrontEnd.scss';
-}
+// :local(.icons) {
+//   composes: icons from '../FrontEnd/FrontEnd.scss';
+// }
 
-:local(.png-root) {
-  composes: png-root from '../style.scss';
-}
+// :local(.icon) {
+//   composes: icon from '../FrontEnd/FrontEnd.scss';
+// }
 
-:local(.png-icon) {
-  composes: png-icon from '../style.scss';
-}
+// :local(.png-root) {
+//   composes: png-root from '../style.scss';
+// }
+
+// :local(.png-icon) {
+//   composes: png-icon from '../style.scss';
+// }

@@ -4,7 +4,7 @@ import Card from '../Card/index';
 import Modal from '../Modal/index';
 import portfolioInfo from './portfolioInfo.json';
 
-import styles from './PortfolioList.css';
+import style from './style.css';
 
 class PortfolioList extends Component {
   constructor(props) {
@@ -31,10 +31,10 @@ class PortfolioList extends Component {
   render() {
     return (
       // if currentModal, render it
-      <div id="portfolio" className={ styles.root }>
-        <h3 className={ styles['section-heading']}>Portfolio</h3>
-        {/* <h3 className={ styles.heading }>Portfolio</h3> */}
-        <div className={ styles['cards-container'] }>
+      <div id="portfolio" className={ style.portfolio }>
+        <h3 className={ style['section-heading']}>Portfolio</h3>
+        {/* <h3 className={ style.heading }>Portfolio</h3> */}
+        <div className={ style['portfolio__cards'] }>
         {
           portfolioInfo.map((portfolioItem, index) => (
             <Card key={ portfolioItem.name } info={ portfolioItem } onModal={ this.onModal }/>

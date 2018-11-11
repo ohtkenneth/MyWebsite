@@ -5,16 +5,16 @@ import Body from './Body/index';
 import Footer from './Footer/index';
 import Modal from '../Modal/index';
 
-import styles from './style.css';
+import style from './style.css';
 
 const Card = ({ info, onModal }) => {
   return (
-    <div className={ styles.root } onClick={ () => onModal(info.id) }>
+    <div className={ style.card } onClick={ () => onModal(info.id) }>
       <Footer name={ info.name } description={ info.description }/>
-      <div className={ styles.technologies }>
+      <div className={ style['card__technologies'] }>
         {   
           info.technologies.map((tech, index) => (
-            <div key={ tech } className={ styles.icon }>{ icons[tech] }</div>
+            <div key={ tech } className={ style['card_technologies--icon'] }>{ icons[tech] }</div>
           ))
         }
       </div>

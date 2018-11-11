@@ -1,4 +1,4 @@
-:local(.root) {
+:local(.modal) {
   display: flex;
   position: fixed; /* Sit on top of the page content */
   justify-content: center;
@@ -34,7 +34,7 @@
   }
 }
 
-:local(.content) {
+:local(.modal__content) {
   display: flex;
   flex-direction: column;
   align-items: center;

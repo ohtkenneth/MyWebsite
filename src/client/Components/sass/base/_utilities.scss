@@ -1,0 +1,20 @@
+:global(.u-margin-bottom-large) {
+  margin-bottom: 8rem;
+  padding:5rem;
+}
+
+:global(.u-padding-medium) {
+  padding: 5rem;
+}
+
+:global(.u-margin-bottom-medium) {
+  margin-bottom: 4rem;
+}
+
+:global(.u-margin-bottom-small) {
+  margin-bottom: 1.5rem;
+}
+
+:global(.text-color-light) {
+  color: $text-color-light;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './style.css';
-import Details from './Details/Details';
+import Details from './Details/index';
 
 const Modal = ({ info, onRemoveModal }) => {
   const removeModal = (e) => {
@@ -15,10 +15,10 @@ const Modal = ({ info, onRemoveModal }) => {
   return (
     <div 
       id="modal"
-      className={ styles.root } 
+      className={ styles.modal } 
       onClick= { removeModal }
     >
-      <div id="modal-card" className={ styles.content }>
+      <div id="modal-card" className={ styles['modal__content'] }>
         <Details name={ info.name } description={ info.description } technologies={ info.technologies } points={ info.points }/>
       </div>
     </div>

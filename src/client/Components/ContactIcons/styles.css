@@ -34,6 +34,7 @@
 :local(.contact-gmail:hover::after) {
   transform: scale(1.5);
   opacity: 0;
+  color: #e46c64;
   background-color: #e46c64;
 }
 
@@ -51,5 +52,6 @@
 :local(.contact-linkedin:hover::after) {
   transform: scale(1.5);
   opacity: 0;
+  color: #0077b5;
   background-color: #0077b5;
 }

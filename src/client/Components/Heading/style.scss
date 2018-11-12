@@ -1,5 +1,13 @@
-:local(.heading) {
-  &--primary {
-    font-size: 3rem;
-  }
+:local(.heading--primary) {
+  font-size: 3rem;
+}
+
+:local(.heading--secondary) {
+  color: white;
+  font-size: 2rem;
+  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+:local(.heading--tertiary) {
+  
 }

@@ -2,8 +2,8 @@ import React from 'react';
 import style from './style.scss';
 
 import FrontEnd from './FrontEnd/index';
-import BackEnd from './BackEnd/BackEnd';
-import Testing from './Testing/Testing';
+import BackEnd from './BackEnd/index';
+import Testing from './Testing-Deployment/index';
 import Divider from './Divider/Divider';
 
 const Skills = () => {

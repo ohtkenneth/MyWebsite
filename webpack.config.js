@@ -18,16 +18,26 @@ module.exports = {
       //   test: /\.css$/,
       //   loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]' 
       // }
+      // {
+      //   test: /\.scss$/,
+      //   use: [
+      //     'style-loader',
+      //     {
+      //       loader: 'css-loader',
+      //       options: {
+      //         localIdentName: '[name]__[local]___[hash:base64:5]'
+      //       }
+      //     },
+      //     'sass-loader',
+      //   ],
+      // },
       {
         test: /\.scss$/,
         use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-        ],
-        options: {
-          localIdentName: '[local]__[hash:base64:5]',
-        }
+            "style-loader", // creates style nodes from JS strings
+            "css-loader", // translates CSS into CommonJS
+            "sass-loader" // compiles Sass to CSS, using Node Sass by default
+        ]
       },
       {
         test: /\.svg/,

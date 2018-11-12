@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from './BackEnd.scss';
+import style from './style.scss';
 
+import Heading from '../../Heading/index';
 import Skill from '../Skill/index';
 
 const BackEnd = () => {
@@ -48,17 +49,10 @@ const BackEnd = () => {
   ];
 
   return (
-    <div className={ styles['skills__section'] }>
-      <h2 className={ styles['skills__heading'] }>Back End</h2>
-      <div className={ styles['skills__icons'] }>
-        {/* <i class="devicon-nodejs-plain"><span>Node.js</span></i>
-        <i class="devicon-express-original"><span>Express.js</span></i>
-        <i class="devicon-amazonwebservices-original"><span>&nbsp;&nbsp;AWS&nbsp;&nbsp;</span></i>
-        <i class="devicon-redis-plain"><span>Redis</span></i>
-        <i class="devicon-mongodb-plain"><span>MongoDB</span></i>
-        <span className={ styles['png-root']}><img className={ styles['png-icon'] } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/mongooseWhite.png'/>Mongoose.js</span>
-        <i class="devicon-postgresql-plain"><span>PostgreSQL</span></i>
-        <span className={ styles['png-root']}><img className={ styles['png-icon'] } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/knexWhite.png'/>Knex.js</span> */}
+    <div className={ style['skills__section'] }>
+      {/* <h2 className={ style['skills__heading'] }>Back End</h2> */}
+      <Heading type="secondary" text="Back End" />
+      <div className={ style['skills__section__icons'] }>
         {
           skills.map(skill => (
             <Skill type={ skill.type } text={ skill.text } src={ skill.src }/>

@@ -18,7 +18,7 @@ const BackEnd = () => {
     },
     {
       type: 'font',
-      text: 'AWS',
+      text: 'Amazon Web Services',
       src: 'devicon-amazonwebservices-original'
     },
     {

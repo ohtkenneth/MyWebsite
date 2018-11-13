@@ -27,6 +27,11 @@ const FrontEnd = () => {
       src: 'devicon-react-original',
     },
     {
+      type: 'image',
+      text: 'Redux',
+      src: 'https://s3-us-west-1.amazonaws.com/ktowebsitefiles/reduxWhite.png',
+    },
+    {
       type: 'font',
       text: 'Sass',
       src: 'devicon-sass-original'

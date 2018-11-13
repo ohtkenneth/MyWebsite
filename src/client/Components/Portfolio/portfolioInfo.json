@@ -5,6 +5,7 @@
     "technologies": ["react", "node", "express", "mongodb", "mongoose", "postgresql", "knex", "redis", "docker", "aws", "nginx", "jest", "enzyme", "travisci"],
     "description": "Sephora clone scaled and optimized to handle heavy traffic",
     "images": [
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/awsget10k.png",
       "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/zphora1.png",
       "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/zphora2.png"
     ],
@@ -35,7 +36,7 @@
   {
     "id": "tp",
     "name": "Suggestions",
-    "technologies": ["react", "bootstrap", "node", "express", "passport", "mongodb", "mongoose", "aws", "jest"],
+    "technologies": ["react", "redux", "bootstrap", "node", "express", "passport", "mongodb", "mongoose", "aws", "jest"],
     "description": "Single Page Application that helps with discovery of points of interets in a specific location",
     "mainImage": "https://melbournechapter.net/images/gps-clipart-logo-3.png",
     "images": [

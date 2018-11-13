@@ -4,7 +4,11 @@
     "name": "Zphora",
     "technologies": ["react", "node", "express", "mongodb", "mongoose", "postgresql", "knex", "redis", "docker", "aws", "nginx", "jest", "enzyme", "travisci"],
     "description": "Sephora clone scaled and optimized to handle heavy traffic",
-    "images": [],
+    "images": [
+      "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
+      "https://s3-us-west-1.amazonaws.com/katella-glass/bathroom.jpg",
+      "https://s3-us-west-1.amazonaws.com/katella-glass/bathroom.jpg"
+    ],
     "mainImage": "https://visusllc.com/images/default-source/services-platforms/system-design.png?sfvrsn=5c097ff9_4",
     "points": [
       "Reduced seed data generation time  of 10 million entries by 85% using Node.js streams to reduce memory overhead and write backpressure",
@@ -19,7 +23,10 @@
     "technologies": ["react", "node", "express", "mongodb", "mongoose", "docker", "aws", "jest", "enzyme" , "travisci"],
     "description": "Microservice oriented application emulating the popular IMDb website",
     "mainImage": "https://s3-us-west-1.amazonaws.com/fec-imdb/fmdb.png",
-    "images:": [
+    "images": [
+      "https://s3-us-west-1.amazonaws.com/katella-glass/bathroom.jpg",
+      "https://s3-us-west-1.amazonaws.com/katella-glass/bathroom.jpg",
+      "https://s3-us-west-1.amazonaws.com/katella-glass/bathroom.jpg"
     ],
     "points": [
       "Designed and built modular views with React for integration with other application services",

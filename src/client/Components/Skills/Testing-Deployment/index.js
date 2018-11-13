@@ -41,20 +41,15 @@ const TestingAndDeployment = () => {
   return (
     <div 
       className={ style['testing-deployment'] }
-      data-aos="fade-right"
-      data-aos-offset="150"
+      data-aos="fade-up"
+      data-aos-offset="250"
+      data-aos-duration="700"
     >
       <Heading type="secondary" text="Deployment"/>
       <div className={ style.icons }>      
-        {/* <span className={ style['png-root']}><img className={ style['png-icon'] } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/jestWhite.png'/>Jest</span>
-        <i class="devicon-mocha-plain"><span>Mocha</span></i>
-        <i class="devicon-travis-plain"><span>Travis CI</span></i>
-        <i class="devicon-docker-plain"><span>Docker</span></i>
-        <i class="devicon-amazonwebservices-original"><span>AWS</span></i>
-        <i class="devicon-nginx-original"><span>NGINX</span></i> */}
         {
           skills.map(skill => (
-            <Skill type={ skill.type } text={ skill.text } src={ skill.src } />
+            <Skill key={ 'td' + skill } type={ skill.type } text={ skill.text } src={ skill.src } />
           ))
         }
       </div>

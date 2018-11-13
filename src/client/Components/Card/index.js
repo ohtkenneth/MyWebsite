@@ -8,7 +8,12 @@ import style from './style.scss';
 
 const Card = ({ info, onModal }) => {
   return (
-    <div className={ style.card } onClick={ () => onModal(info.id) }>
+    <div 
+      className={ style.card } 
+      onClick={ () => onModal(info.id) }
+      data-aos="fade-up"
+      data-aos-offset={ String(Math.floor(Math.random() * 300) + 200)}
+    >
       <Footer name={ info.name } description={ info.description }/>
       <div className={ style['card__technologies'] }>
         {   

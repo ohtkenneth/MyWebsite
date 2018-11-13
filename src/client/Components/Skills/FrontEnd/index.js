@@ -42,7 +42,8 @@ const FrontEnd = () => {
     <div 
       className={ style.root } 
       data-aos="fade-right"
-      data-aos-offset="150"
+      data-aos-offset="250"
+      data-aos-duration="700"
     >
       {/* <h2 className={ style.heading }>Front End</h2> */}
       <Heading type="secondary" text="Front End" />

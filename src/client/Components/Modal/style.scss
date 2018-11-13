@@ -38,20 +38,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 75%;
-  height: 60%;
+  // width: 75%;
+  width: 50%;
+  height: 80%;
   background-color: white;
   animation: slide-up 0.3s ease;
   border-radius: 3px;
   border: 0.1rem solid black;
   overflow: auto;
-}
-
-@media(max-width: 1200px) {
-  /* :local(.content) {
-    width: 60%;
-    height: 60%;
-  } */
 }
 
 @keyframes slide-up {
@@ -77,16 +71,27 @@
   }
 }
 
-@media only screen and (min-width: 1500px) {
-
+@media only screen and (min-width: 1200px) {
+  :local(.modal__content) {
+    width: 60%;
+  }
 }
 
-@media only screen and (min-width: 1200px) {
-
+@media only screen and (max-width: 1200px) {
+  :local(.modal__content) {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width : 900px) {
-  :local(.content) {
+  :local(.modal__content) {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  :local(.modal__content) {
+    width: 90%;
     height: 80%;
   }
 }

@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  /* height: 40%; */
 }
 
 :local(.details__header) {
@@ -35,7 +34,12 @@
   transition: background-color 0.5s, color 0.4s, transform 0.5s;
 }
 
-:local(.point:hover) {
+:local(.details__screenshots img) {
+  width: 100%;
+  height: auto;
+}
+
+:local(.details__points--point:hover) {
   color: white;
   background-color: #37a5da;
   transform: translateY(-0.3rem);

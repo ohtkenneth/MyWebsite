@@ -1,5 +1,11 @@
 @import '../style.scss';
 
+:local(.skills__backend__icons) {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 // :local(.root) {
 //   composes: root from '../FrontEnd/FrontEnd.scss';
 // }

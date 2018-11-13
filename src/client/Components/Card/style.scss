@@ -24,9 +24,10 @@
 
 }
 
-:local(.root:hover) {
+:local(.card:hover) {
   -webkit-box-shadow: 0px 0px 20px 8px #37a5da;
   /* box-shadow: 0px 0px 20px 8px #37a5da; */
   box-shadow: 0 25px 25px 5px #c2c2c2;
   transform: translateY(-0.5rem);
 }
+

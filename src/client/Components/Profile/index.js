@@ -14,7 +14,7 @@ class ProfileSection extends Component {
           <h3 className={ style.text }>I'm a full stack software engineer.</h3>
         </div>
         <div className={ style.personal }>
-          <p>I reserve a deep respect for technology and the value it provides to people of all walks of life. Learning new web technologies and building scalable applications that can impact people in meaningful ways is what I live for.</p>
+          <p>I reserve a deep respect for technology and the value it provides to people of all walks of life. Learning new web technologies and building scalable applications that can impact people in meaningful ways is what I work for.</p>
         </div>
       </div>
     );

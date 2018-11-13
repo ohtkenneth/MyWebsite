@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './style.scss';
 import Details from './Details/index';
 
+
 const Modal = ({ info, onRemoveModal }) => {
   const removeModal = (e) => {
     // add fade out animation if e is from modal
@@ -19,7 +20,7 @@ const Modal = ({ info, onRemoveModal }) => {
       onClick= { removeModal }
     >
       <div id="modal-card" className={ styles['modal__content'] }>
-        <Details name={ info.name } description={ info.description } technologies={ info.technologies } points={ info.points }/>
+        <Details name={ info.name } description={ info.description } technologies={ info.technologies } images={ info.images } points={ info.points }/>
       </div>
     </div>
   );

@@ -52,11 +52,12 @@ const BackEnd = () => {
     <div 
       className={ style['skills__section'] }
       data-aos="fade-left"
-      data-aos-offset="150"
+      data-aos-offset="250"
+      data-aos-duration="700"
     >
       {/* <h2 className={ style['skills__heading'] }>Back End</h2> */}
       <Heading type="secondary" text="Back End" />
-      <div className={ style['skills__section__icons'] }>
+      <div className={ style['skills__backend__icons'] }>
         {
           skills.map(skill => (
             <Skill type={ skill.type } text={ skill.text } src={ skill.src }/>

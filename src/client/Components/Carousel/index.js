@@ -46,7 +46,11 @@ export default class Carousel extends React.Component {
   render() {
     return (
       <div className={ style.carousel }>
-        <img id="carousel__image" className={ style['carousel__item']} src={ this.props.images[0] }/>
+        <img 
+          id="carousel__image"
+          className={ style['carousel__item'] } 
+          src={ this.props.images[0] }
+        />
         <div className={ style['carousel__controls']}>
           <a href="#" data-direction="left" className={ style['carousel__controls--left']} onClick={ this.handleSlide }><img data-direction="left" src={ require('../icons/arrowleft.png')}/></a>
           <a href="#" data-direction="right" className={ style['carousel__controls--right']} onClick={ this.handleSlide }><img data-direction="right" src={ require('../icons/arrowright.png')}/></a>

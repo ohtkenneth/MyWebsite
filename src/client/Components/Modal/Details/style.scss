@@ -39,6 +39,10 @@
   height: auto;
 }
 
+:local(.details__image--construction) {
+  padding: 3rem;
+}
+
 :local(.details__points--point:hover) {
   color: white;
   background-color: #37a5da;

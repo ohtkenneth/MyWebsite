@@ -21,6 +21,11 @@
   height: 4rem;
 }
 
+:local(.carousel__item--construction) {
+  width: 20%;
+  height: 20%;
+}
+
 :global(.fade-in) {
   animation-name: fade-in;
   animation-duration: 1s;

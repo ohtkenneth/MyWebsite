@@ -39,9 +39,6 @@
     "description": "Single Page Application that helps with discovery of points of interets in a specific location",
     "mainImage": "https://melbournechapter.net/images/gps-clipart-logo-3.png",
     "images": [
-      "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
-      "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg",
-      "http://papers.co/wallpaper/papers.co-vz23-minimal-blue-dark-line-abstract-digital-pattern-background-36-3840x2400-4k-wallpaper.jpg"
     ],
     "points": [
       "Integrated OAuth 2.0 with Passport.js for quicker and more secure user authentication",

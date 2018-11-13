@@ -1,6 +1,8 @@
 import React from 'react';
 import style from './style.scss';
 
+import CarouselDots from './CarouselDots/index';
+
 export default class Carousel extends React.Component {
   constructor(props) {
     super(props);
@@ -49,27 +51,8 @@ export default class Carousel extends React.Component {
           <a href="#" data-direction="left" className={ style['carousel__controls--left']} onClick={ this.handleSlide }><img data-direction="left" src={ require('../icons/arrowleft.png')}/></a>
           <a href="#" data-direction="right" className={ style['carousel__controls--right']} onClick={ this.handleSlide }><img data-direction="right" src={ require('../icons/arrowright.png')}/></a>
         </div>
+        <CarouselDots dots={ this.props.images } currDot={ this.state.currImage } />
       </div>
     )
   }
 }
-
-// const Carousel = ({ images }) => {
-//   return (
-//     <div className="carousel slide" data-ride="carousel">
-//       <div className="carousel-item active">
-//         <img className="d-block w-100" src={ images[0] }/>
-//       </div>
-//       <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
-//         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-//         <span class="sr-only">Previous</span>
-//       </a>
-//       <a class="carousel-control-next" href="#" role="button" data-slide="next">
-//         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-//         <span class="sr-only">Next</span>
-//       </a>
-//     </div>
-//   );
-// };
-
-// export default Carousel;

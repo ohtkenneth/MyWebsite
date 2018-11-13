@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Heading from '../../Heading/index';
 import Skill from '../Skill/index';
 import style from './style.scss';
 
@@ -26,11 +26,11 @@ const FrontEnd = () => {
       text: 'React',
       src: 'devicon-react-original',
     },
-    // redux: {
-    //   type: 'font',
-    //   text: 'JavaScript',
-    //   src: 'devicon-javascript-plain',
-    // },
+    {
+      type: 'font',
+      text: 'Sass',
+      src: 'devicon-sass-original'
+    },
     {
       type: 'font',
       text: 'Bootstrap',
@@ -39,8 +39,13 @@ const FrontEnd = () => {
   ];
 
   return (
-    <div className={ style.root }>
-      <h2 className={ style.heading }>Front End</h2>
+    <div 
+      className={ style.root } 
+      data-aos="fade-right"
+      data-aos-offset="150"
+    >
+      {/* <h2 className={ style.heading }>Front End</h2> */}
+      <Heading type="secondary" text="Front End" />
       <div className={ style.icons }>
         { 
           skills.map(skill => (

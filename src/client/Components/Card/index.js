@@ -1,7 +1,6 @@
 import React from 'react';
 
 import icons from '../utils/icons';
-import Body from './Body/index';
 import Footer from './Footer/index';
 import Modal from '../Modal/index';
 

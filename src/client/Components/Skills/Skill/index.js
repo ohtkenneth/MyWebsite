@@ -12,8 +12,8 @@ const Skill = ({ type, text, src }) => {
     );
   } else if (type === 'image') {
     skill = (
-      <span classsName={ style['skill']}>
-        <img className={ style['skill__icon'] } src={ src }/>
+      <span className={ style.skill }>
+        <img className={ style['skill__image'] } src={ src }/>
         { text }
       </span>
     )

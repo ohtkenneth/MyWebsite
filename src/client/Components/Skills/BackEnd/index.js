@@ -49,7 +49,11 @@ const BackEnd = () => {
   ];
 
   return (
-    <div className={ style['skills__section'] }>
+    <div 
+      className={ style['skills__section'] }
+      data-aos="fade-left"
+      data-aos-offset="150"
+    >
       {/* <h2 className={ style['skills__heading'] }>Back End</h2> */}
       <Heading type="secondary" text="Back End" />
       <div className={ style['skills__section__icons'] }>

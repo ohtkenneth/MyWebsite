@@ -15,8 +15,8 @@
     "points": [
       "Implemented AWS Cognito groups to connect AWS Lambda to AWS Simple Email Service to obfuscate API credentials",
       "Integrated AWS Simple Email Service for customer to business messaging on website",
-      "Designed, developed, and deployed application",
-      "Implemented Sass 7-1 architecture for maintainability and reusability of core components and features"
+      "Utilized Sass 7-1 architecture for maintainability and reusability of core components and styles",
+      "Designed, developed, and deployed application"
     ]
   },
   {

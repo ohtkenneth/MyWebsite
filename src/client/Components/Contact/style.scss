@@ -14,14 +14,67 @@
 }
 
 :local(.heading--great) {
+  position: relative;
+  font-family: 'Roboto', Geneva, sans-serif;
   font-size: 2rem;
   color: #37a5da;
+  transition: all .5s;
 }
 
 :local(.contact__icons) {
   display: flex;
   padding: 2rem;
 }
+
+:local(.heading--great:hover) {
+  transform: translateY(1rem);
+  
+  :local(.heading--great__message) {
+    display: inline-block;
+  }
+}
+
+:local(.heading--great__message) {
+  display: none;
+  position: absolute;
+  padding: .5rem;
+  text-align: center;
+  border-radius: 10px;
+  width: 6rem;
+  color: #000;
+  border: 2px solid #000;
+  bottom: 3.5rem;
+  left: 5rem;
+  transition: all .5s;
+}
+
+
+:local(.heading--great__message::before) {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 1rem 1rem 0;
+  border-style: solid;
+  border-color: #000 transparent;
+  top: 3.45rem;
+  left: .2rem;
+}
+
+:local(.heading--great__message::after) {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 1rem 1rem 0;
+  border-style: solid;
+  border-color: #ececec transparent;
+  top: 3.25rem;
+  left: .2rem;
+}
+
 
 @media only screen and (min-width: 1500px) {
 

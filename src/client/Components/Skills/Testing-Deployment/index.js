@@ -49,7 +49,7 @@ const TestingAndDeployment = () => {
       <div className={ style.icons }>      
         {
           skills.map(skill => (
-            <Skill key={ 'td' + skill } type={ skill.type } text={ skill.text } src={ skill.src } />
+            <Skill key={ 'td' + skill.text } type={ skill.type } text={ skill.text } src={ skill.src } />
           ))
         }
       </div>

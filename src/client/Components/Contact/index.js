@@ -14,7 +14,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className={ style.contact }>
-      <h2 className={ style['contact__heading'] }>Let's build something <span className={ style['heading--great']}>great.</span></h2>
+      <h2 className={ style['contact__heading'] }>Let's build something <span className={ style['heading--great'] }>great.<span className={ style['heading--great__message'] }>Thanks for coming!</span></span></h2>
       <div className={ style['contact__icons'] }>
         <GmailIcon style={ inlineStyle } />
         <LinkedInIcon style={ inlineStyle } />

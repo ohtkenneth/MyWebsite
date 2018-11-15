@@ -55,7 +55,7 @@ const FrontEnd = () => {
       <div className={ style.icons }>
         { 
           skills.map(skill => (
-            <Skill type={ skill.type } text={ skill.text } src={ skill.src }/>
+            <Skill key={'frontend' + skill.text } type={ skill.type } text={ skill.text } src={ skill.src }/>
           ))
         }
       </div>

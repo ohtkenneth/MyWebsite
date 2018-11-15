@@ -2,7 +2,6 @@ import React from 'react';
 
 import icons from '../utils/icons';
 import Footer from './Footer/index';
-import Modal from '../Modal/index';
 
 import style from './style.scss';
 
@@ -14,7 +13,7 @@ const Card = ({ info, onModal }) => {
       data-aos="fade-up"
       data-aos-offset={ String(Math.floor(Math.random() * 300) + 200)}
     >
-      <Footer name={ info.name } description={ info.description }/>
+      <Footer name={ info.name } description={ info.description } websiteLink={ info.websiteLink }/>
       <div className={ style['card__technologies'] }>
         {   
           info.technologies.map((tech, index) => (

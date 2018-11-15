@@ -3,7 +3,7 @@ import style from './style.scss';
 
 import FrontEnd from './FrontEnd/index';
 import BackEnd from './BackEnd/index';
-import Testing from './Testing-Deployment/index';
+import TestingDeployment from './Testing-Deployment/index';
 import Divider from './Divider/Divider';
 
 const Skills = () => {
@@ -14,7 +14,7 @@ const Skills = () => {
       <Divider/>
       <BackEnd />
       <Divider/>
-      <Testing />
+      <TestingDeployment />
     </div>
   );
 };

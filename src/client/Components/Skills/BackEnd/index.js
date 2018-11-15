@@ -60,7 +60,7 @@ const BackEnd = () => {
       <div className={ style['skills__backend__icons'] }>
         {
           skills.map(skill => (
-            <Skill type={ skill.type } text={ skill.text } src={ skill.src }/>
+            <Skill key={'backend' + skill.text } type={ skill.type } text={ skill.text } src={ skill.src }/>
           ))
         }
       </div>

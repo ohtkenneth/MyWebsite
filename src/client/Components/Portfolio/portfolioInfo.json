@@ -3,6 +3,7 @@
     "id": "kandg",
     "name": "Katella Glass & Mirror",
     "description": "Katella Glass & Mirror business website",
+    "websiteLink": "https://www.katellaglassandmirror.com",
     "technologies": ["react", "sass", "aws", "travisci", "jest", "enzyme"],
     "images": [
       "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/katella1.PNG",
@@ -12,7 +13,8 @@
       "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/katella5.PNG"
     ],
     "points": [
-      "Implemented AWS Simple Email Service for customer messaging on website",
+      "Implemented AWS Cognito groups to connect AWS Lambda to AWS Simple Email Service to obfuscate API credentials",
+      "Integrated AWS Simple Email Service for customer to business messaging on website",
       "Designed, developed, and deployed application",
       "Implemented Sass 7-1 architecture for maintainability and reusability of core components and features"
     ]

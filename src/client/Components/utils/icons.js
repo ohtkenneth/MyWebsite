@@ -21,6 +21,7 @@ const icons = {
   react: (<i style={ iconFont } className="devicon-react-original colored"></i>),
   angular: (<i style={ iconFont } className="devicon-angularjs-plain colored"></i>),
   redux: (<img style={ iconStyle } src='https://s3-us-west-1.amazonaws.com/ktowebsitefiles/reduxBlack.png'/>),
+  sass:  (<i style={ iconFont } className="devicon-sass-original colored"></i>),
   aws: (<i style={ iconFont } className="devicon-amazonwebservices-original colored"></i>),
   node: (<i style={ iconFont } className="devicon-nodejs-plain colored"></i>),
   backbone: (<i style={ iconFont } className="devicon-backbonejs-plain colored"></i>),

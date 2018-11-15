@@ -1,5 +1,23 @@
 [
   {
+    "id": "kandg",
+    "name": "Katella Glass & Mirror",
+    "description": "Katella Glass & Mirror business website",
+    "technologies": ["react", "sass", "aws", "travisci", "jest", "enzyme"],
+    "images": [
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/katella1.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/katella2.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/katella3.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/katella4.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/katella5.PNG"
+    ],
+    "points": [
+      "Implemented AWS Simple Email Service for customer messaging on website",
+      "Designed, developed, and deployed application",
+      "Implemented Sass 7-1 architecture for maintainability and reusability of core components and features"
+    ]
+  },
+  {
     "id": "sdc",
     "name": "Zphora",
     "technologies": ["react", "node", "express", "mongodb", "mongoose", "postgresql", "knex", "redis", "docker", "aws", "nginx", "jest", "enzyme", "travisci"],

@@ -1,5 +1,28 @@
 [
   {
+    "id": "wwtwbl",
+    "name": "What Will The Weather Be Like",
+    "description": "Application to predict future weather conditions based on historical weather data",
+    "websiteLink": "https://whatwilltheweatherbelike.com/about",
+    "technologies": ["react","redux", "sass", "node", "express", "digitalocean", "travisci", "jest"],
+    "images": [
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/weather/weather1.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/weather/weather2.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/weather/weather3.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/weather/weather4.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/weather/weather5.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/weather/weather6.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/weather/weather7.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/weather/weather8.PNG",
+      "https://s3-us-west-1.amazonaws.com/ktowebsitefiles/screenshots/weather/weather9.PNG"
+    ],
+    "points": [
+      "Integrated worldweatheronline historical weather api to map historical data to structured, organized visualizations",
+      "Utilized Google Places API for autocomplete searches for user input uniformity",
+      "Implemented SSL certificates to ensure security with HTTPS protocol"
+    ]
+  },
+  {
     "id": "kandg",
     "name": "Katella Glass & Mirror",
     "description": "Katella Glass & Mirror business website",
@@ -15,8 +38,7 @@
     "points": [
       "Implemented AWS Cognito groups to connect AWS Lambda to AWS Simple Email Service to obfuscate API credentials",
       "Integrated AWS Simple Email Service for customer to business messaging on website",
-      "Utilized Sass 7-1 architecture for maintainability and reusability of core components and styles",
-      "Designed, developed, and deployed application"
+      "Utilized Sass 7-1 architecture for maintainability and reusability of core components and styles"
     ]
   },
   {

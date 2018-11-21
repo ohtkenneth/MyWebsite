@@ -73,25 +73,25 @@
 
 @media only screen and (min-width: 1200px) {
   :local(.modal__content) {
-    width: 60%;
+    width: 50%;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   :local(.modal__content) {
-    width: 70%;
+    width: 60%;
   }
 }
 
 @media only screen and (max-width : 900px) {
   :local(.modal__content) {
-    width: 80%;
+    width: 70%;
   }
 }
 
 @media only screen and (max-width: 700px) {
   :local(.modal__content) {
-    width: 90%;
+    width: 80%;
     height: 80%;
   }
 }

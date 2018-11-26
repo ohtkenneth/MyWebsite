@@ -14,6 +14,7 @@
 }
 
 :local(.heading--great) {
+  display: inline-block;
   position: relative;
   font-family: 'Roboto', Geneva, sans-serif;
   font-size: 2rem;
@@ -27,7 +28,7 @@
 }
 
 :local(.heading--great:hover) {
-  transform: translateY(1rem);
+  transform: translateY(-.5rem);
   
   :local(.heading--great__message) {
     display: inline-block;
@@ -44,7 +45,7 @@
   color: #000;
   border: 2px solid #000;
   bottom: 3.5rem;
-  left: 5rem;
+  left: 4rem;
   transition: all .5s;
 }
 
@@ -58,7 +59,7 @@
   border-width: 1rem 1rem 0;
   border-style: solid;
   border-color: #000 transparent;
-  top: 4.6rem;
+  top: 3.42rem;
   left: .2rem;
 }
 
@@ -71,17 +72,8 @@
   border-width: 1rem 1rem 0;
   border-style: solid;
   border-color: #ececec transparent;
-  top: 4.45rem;
+  top: 3.25rem;
   left: .2rem;
-}
-
-
-@media only screen and (min-width: 1500px) {
-
-}
-
-@media only screen and (min-width: 1200px) {
-
 }
 
 @media only screen and (max-width : 900px) {
